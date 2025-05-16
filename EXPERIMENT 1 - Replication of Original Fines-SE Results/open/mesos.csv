@@ -1,0 +1,415 @@
+,Summary,Custom field (Story Points),Assignee_count,Reporter_count,Creator_count
+0,Argument forwaring in CMake build result in glog 0.4.0 build as shared library,1.0,0.0,0.014285714285714285,0.014285714285714285
+1,MasterQuotaTest.ValidateLimitAgainstConsumed is flaky,3.0,0.0,1.0,1.0
+2,Re-evaluate libevent SSL socket EOF semantics in libprocess,3.0,0.0,1.0,1.0
+3,Mesos may report completed task as running in the state.,5.0,0.0,0.2,0.2
+4,Flapping tasks with large sandboxes can fill agent disk,5.0,0.0,1.0,1.0
+5,Using a symlink as the agent's work directory results in non-removal of persistent volume mounts.,2.0,0.0,0.37142857142857144,0.37142857142857144
+6,ZooKeeperTest.Auth is flaky.,3.0,0.7857142857142857,0.15714285714285714,0.15714285714285714
+7,Migrate allocator metrics to PushGauge.,5.0,0.0,0.2,0.2
+8,SEGV During Initial Connect Processing,5.0,0.0,0.0,0.0
+9,"When `UPDATE_SLAVE` messages are received, offers might not be rescinded due to a race ",2.0,0.7857142857142857,0.014285714285714285,0.014285714285714285
+10,Test that master rejects requests to create refined reservations on a non-capable agent.,2.0,0.0,0.02857142857142857,0.02857142857142857
+11,Specifying custom CXXFLAGS breaks Mesos build,3.0,0.0,0.014285714285714285,0.014285714285714285
+12,Check all omissions of 'defer' for safety,5.0,0.0,1.0,1.0
+13,Provide doc examples for dynamic reservation/persistent volumes,3.0,0.0,1.0,1.0
+14,Fetcher may print logging error when run as unprivileged user,2.0,0.0,1.0,1.0
+15,ContainerLoggerTest.LOGROTATE_RotateInSandbox is flaky,1.0,0.0,1.0,1.0
+16,Parsing to protobuf leads to API call validation errors,3.0,0.0,1.0,1.0
+17,Master may send `FRAMEWORK_UPDATED` for a new framework ID in operator API.,3.0,0.0,0.4,0.4
+18,Early disk usage check for garbage collection during recovery,2.0,0.0,0.4,0.4
+19,FetcherCacheHttpTest.HttpCachedSerialized and FetcherCacheHttpTest.HttpCachedConcurrent are flaky,2.0,0.0,0.37142857142857144,0.37142857142857144
+20,Test `ROOT_DOCKER_DockerAndMesosContainerizers/DefaultExecutorTest.TaskWithFileURI` is flaky.,1.0,0.0,0.2,0.2
+21,Default executor should commit suicide if it cannot receive HTTP responses for LAUNCH_NESTED_CONTAINER calls.,3.0,0.07142857142857142,0.4,0.4
+22,Mesos CNI portmap plugins' iptables rules doesn't allow connections via host ip and port from the same bridge container network,3.0,0.7142857142857143,0.0,0.0
+23,CgroupsAnyHierarchyMemoryPressureTest.ROOT_IncreaseRSS Flaky,3.0,1.0,0.04285714285714286,0.04285714285714286
+24,GarbageCollectorIntegrationTest.ExitedFramework is flaky,3.0,0.0,0.2571428571428571,0.2571428571428571
+25,Support distinguishing revocable resources in the Resource protobuf.,2.0,0.0,0.2,0.2
+26,Identify and implement test cases for verifying eviction logic in the agent,13.0,0.0,0.2,0.2
+27,Extend mesos-style.py/cpplint.py to check #include files,1.0,0.0,0.04285714285714286,0.04285714285714286
+28,"Add a helper function to the Agent to retrieve the list of executors that are using optimistically offered, revocable resources.",5.0,0.0,0.2,0.2
+29,consecutive_failures 0 == 1 in HealthCheck.,3.0,0.0,0.0,0.0
+30,Test DockerContainerizerTest.ROOT_DOCKER_Launch_Executor fails.,2.0,0.0,0.1,0.1
+31,stout flags can't have their defaults reset,5.0,0.0,0.02857142857142857,0.02857142857142857
+32,Synchronously handle AuthZ errors for the Scheduler endpoint.,5.0,0.0,0.15714285714285714,0.15714285714285714
+33,Add support to apply-reviews.py to update SVN when necessary. ,3.0,0.0,0.2,0.2
+34,GroupTest.LabelledGroup segfaults,2.0,0.0,0.2571428571428571,0.2571428571428571
+35,The slave does not show pending tasks in the JSON endpoints.,1.0,0.0,0.2857142857142857,0.2857142857142857
+36,Expand the range of integer precision in json <-> protobuf conversions to include unsigned integers,5.0,0.0,0.37142857142857144,0.37142857142857144
+37,Fatal error in `DRFSorter::unallocated()` in `SharedPersistentVolumeRescindOnDestroy` test.,2.0,0.6428571428571429,0.05714285714285714,0.05714285714285714
+38,MasterAPITest.EventAuthorizationFiltering is flaky,3.0,0.21428571428571427,1.0,1.0
+39,ABORT checks its preconditions incorrectly and incompletely,1.0,0.0,0.18571428571428572,0.18571428571428572
+40,Confirm errors in authorized persistent volume tests,1.0,0.0,1.0,1.0
+41,Labels equality behavior is wrong,5.0,0.0,0.02857142857142857,0.02857142857142857
+42,The agent's GET_AGENT leaks resource information when using authorization,3.0,0.0,0.18571428571428572,0.18571428571428572
+43,Enqueueing events in MockHTTPScheduler can lead to segfaults.,5.0,0.0,0.4142857142857143,0.38571428571428573
+44,`cpu.cfs_quota_us` may be accidentally set for command task using docker during agent recovery.,5.0,0.7142857142857143,0.2,0.2
+45,Nested container launched with non-root user may not be able to write to its sandbox via the environment variable `MESOS_SANDBOX`,3.0,0.7142857142857143,0.07142857142857142,0.07142857142857142
+46,Persistence volume does not unmount correctly with wrong artifact URI,3.0,0.7857142857142857,0.0,0.0
+47,Fetcher crashes extracting archives with non-ASCII filenames.,3.0,0.0,0.014285714285714285,0.014285714285714285
+48,Non-checkpointing framework's tasks should not be marked LOST when agent disconnects.,5.0,0.0,0.2857142857142857,0.2857142857142857
+49,Master's agent removal rate limit also applies to agent unreachability.,3.0,0.0,0.2857142857142857,0.2857142857142857
+50,ExecutorHttpApiTest.HeartbeatCalls is flaky.,2.0,0.0,0.15714285714285714,0.15714285714285714
+51,ZK master detection can become forever pending.,5.0,0.0,0.4,0.4
+52,PersistentVolumeEndpointsTest.EndpointCreateThenOfferRemove test is flaky,2.0,1.0,0.2571428571428571,0.2571428571428571
+53,Slow subscribers of streaming APIs can lead to Mesos OOMing.,8.0,0.0,0.4142857142857143,0.38571428571428573
+54,Libprocess: deadlock in process::finalize,5.0,0.2857142857142857,0.05714285714285714,0.05714285714285714
+55,Libprocess does not properly escape subprocess argument strings on Windows,2.0,0.0,1.0,1.0
+56,Docker command executor may stuck at infinite unkillable loop.,3.0,0.2857142857142857,0.1,0.1
+57,Some container launch failures are mistakenly treated as errors.,5.0,0.0,0.4142857142857143,0.38571428571428573
+58,ImageAlpine/ProvisionerDockerTest.ROOT_INTERNET_CURL_SimpleCommand/3 is flaky in some OS.,3.0,0.0,0.1,0.1
+59,PersistentVolumeEndpointsTest.DynamicReservation is flaky.,1.0,0.0,0.2857142857142857,0.2857142857142857
+60,Agent does not check for immutable files while removing persistent volumes (and possibly in other GC operations),3.0,0.0,0.37142857142857144,0.37142857142857144
+61,v1 role-related endpoints need to reflect hierarchical accounting.,8.0,0.21428571428571427,0.2857142857142857,0.2857142857142857
+62,Assertion failed in Master for `Slave::apply` while running `UnreserveVolumeResources` test.,3.0,0.0,0.05714285714285714,0.05714285714285714
+63,Speculative operations may make master and allocator resource views out of sync.,5.0,1.0,0.2,0.2
+64,SlaveRecoveryTest/0.PingTimeoutDuringRecovery is flaky,3.0,0.7857142857142857,0.02857142857142857,0.02857142857142857
+65,Test ReservationEndpointsTest.ReserveAndUnreserveNoAuthentication is flaky.,2.0,1.0,0.2,0.2
+66,SlaveTest.RestartSlaveRequireExecutorAuthentication is flaky.,5.0,0.0,1.0,1.0
+67,Libevent fd cleanup failure may cause hangs in combination with client certificate validation,3.0,0.0,0.014285714285714285,0.014285714285714285
+68,Executor env variables should not be leaked to the command task.,3.0,0.0,0.1,0.1
+69,"Failing 'make distcheck' on Mac OS X 10.10.5, also 10.11.",2.0,0.0,0.1,0.1
+70,Modularize Network in replicated_log,8.0,0.14285714285714285,0.0,0.0
+71,UCR cannot read docker images containing long file paths,3.0,0.14285714285714285,0.4,0.4
+72,Prevent non-RESERVATION_REFINEMENT frameworks from refining reservations.,3.0,0.0,0.02857142857142857,0.02857142857142857
+73,DefaultExecutorTest.ROOT_MultiTaskgroupSharePidNamespace is flaky.,2.0,0.7142857142857143,0.4142857142857143,0.38571428571428573
+74,MemoryPressureMesosTest tests fail on CentOS 6.6,3.0,1.0,1.0,1.0
+75,GMock warning on `offerRescinded` in `ReservationTest` fixture,2.0,0.0,1.0,1.0
+76,FUTURE_DISPATCH may react on irrelevant dispatch.,5.0,0.0,0.4142857142857143,0.38571428571428573
+77,Response from /help includes broken links.,3.0,0.0,0.4142857142857143,0.38571428571428573
+78,Some task status updates sent by the default executor don't contain a REASON.,3.0,0.0,0.08571428571428572,0.08571428571428572
+79,The default executor doesn't retry kills that it initiated,5.0,0.0,0.08571428571428572,0.08571428571428572
+80,Some HTTP scheduler calls are missing from the docs,2.0,0.0,1.0,1.0
+81,Libprocess reinit code leaks SSL server socket FD,2.0,0.7857142857142857,1.0,1.0
+82,The default executor can wrongly indicate that tasks from all task groups are unhealthy,3.0,0.0,0.08571428571428572,0.08571428571428572
+83,Default executor should allow decreasing the escalation grace period of a terminating task,5.0,0.0,0.08571428571428572,0.08571428571428572
+84,PersistentVolumeEndpointsTest.StaticReservation is flaky,2.0,1.0,0.2571428571428571,0.2571428571428571
+85,Some ProvisionerDockerLocalStoreTest.* are flaky due to tar issue.,2.0,0.0,0.2571428571428571,0.2571428571428571
+86,Update reservation slack allocator state during agent failover.,13.0,0.21428571428571427,0.2,0.2
+87,DOCKER_HOST env variable stopped working for executors,2.0,0.0,0.0,0.0
+88,Add a helper function to the Agent to check available resources before launching a task. ,5.0,0.7857142857142857,0.2,0.2
+89,Subprocess should be more intelligent about setting/inheriting libprocess environment variables ,2.0,0.0,0.37142857142857144,0.37142857142857144
+90,CgroupsAnyHierarchyWithPerfEventTest failing on Ubuntu 14.04,3.0,0.0,0.2,0.2
+91,Identify and implement test cases for handling a race between optimistic lender and tenant offers.,13.0,0.0,0.2,0.2
+92,Modify Oversubscription documentation to explicitly forbid the QoS Controller from killing executors running on optimistically offered resources.,2.0,0.0,0.2,0.2
+93,Doing 'clone' on Linux with the CLONE_NEWUSER namespace type can drop root privileges.,5.0,0.0,0.0,0.0
+94,Rebuild reservation slack allocator state during master failover.,13.0,0.7857142857142857,0.2,0.2
+95,fetcher.cpp - problem with certificates..?,2.0,0.07142857142857142,0.0,0.0
+96,MesosContainerizer* tests leak FDs (pipes),2.0,0.42857142857142855,0.37142857142857144,0.37142857142857144
+97,Add checks to make sure isolators and the launcher are compatible.,2.0,0.21428571428571427,0.02857142857142857,0.02857142857142857
+98,Add accounting for reservation slack in the allocator.,13.0,0.0,0.2,0.2
+99,Consistency of quoted strings in error messages,3.0,0.0,0.02857142857142857,0.02857142857142857
+100,Implement tests for verifying allocator resource math.,8.0,0.7857142857142857,0.2,0.2
+101,Add notion of evictable task to RunTaskMessage,2.0,0.7857142857142857,0.2,0.2
+102,Add a flag to master to enable optimistic offers. ,3.0,0.7857142857142857,0.2,0.2
+103,Test ContentTypeAndSSLConfig/SchedulerSSLTest.RunTaskAndTeardown/1 segfaults,2.0,0.7857142857142857,0.18571428571428572,0.18571428571428572
+104,The test `DefaultExecutorTest.KillTaskGroupOnTaskFailure` is flaky,3.0,0.7142857142857143,0.07142857142857142,0.07142857142857142
+105,"Consolidate 'foo', 'bar', ... string constants in test and example code",2.0,0.07142857142857142,0.05714285714285714,0.05714285714285714
+106,Implement HTTP Docker Executor that uses the Executor Library,5.0,0.07142857142857142,0.2571428571428571,0.2571428571428571
+107,Scheduler driver does not detect disconnection with master and reregister.,3.0,0.0,0.37142857142857144,0.37142857142857144
+108,Higher level construct for expressing process dispatch,6.0,0.42857142857142855,0.15714285714285714,0.15714285714285714
+109,bogus docker images result in bad error message to scheduler,2.0,0.5714285714285714,0.0,0.0
+110,Mesos master rescinds all the in-flight offers from all the registered agents when a new maintenance schedule is posted for a subset of slaves,3.0,0.7857142857142857,0.0,0.0
+111,Framework failover when framework is 'active' does not trigger allocation.,5.0,0.0,0.2857142857142857,0.2857142857142857
+112,ProcessTest.Cache fails and hangs,5.0,0.0,0.02857142857142857,0.02857142857142857
+113,Add validation behavior to FlagsBase,1.0,0.35714285714285715,0.014285714285714285,0.014285714285714285
+114,GMock warning in DockerContainerizerTest.ROOT_DOCKER_DockerInspectDiscard,2.0,0.0,1.0,1.0
+115,Add tests for HTTPS SSL socket communication,3.0,0.0,0.15714285714285714,0.15714285714285714
+116,Behavior of custom HTTP authenticators with disabled HTTP authentication is inconsistent between master and agent,3.0,0.0,0.18571428571428572,0.18571428571428572
+117,Slave should wait() and start executor registration timeout after launch ,3.0,0.0,0.04285714285714286,0.04285714285714286
+118,"Request for ""stats.json"" cannot be fulfilled after stopping the framework ",5.0,0.0,0.4142857142857143,0.014285714285714285
+119,Document the container environment variables semantics on mesos.,5.0,0.0,0.1,0.1
+120,Design gRPC-based Mesos module interfaces.,13.0,0.0,0.4,0.4
+121,Add more examples of JSON resources to docs,1.0,0.0,1.0,1.0
+122,Propose a guideline for log messages,5.0,0.0,0.4142857142857143,0.38571428571428573
+123,Add documentation for Appc image discovery.,3.0,0.0,0.15714285714285714,0.15714285714285714
+124,Add documentation around using the docker containerizer on CentOS 6.,1.0,0.0,0.37142857142857144,0.37142857142857144
+125,Document isolators from user perspective.,4.0,0.42857142857142855,0.15714285714285714,0.15714285714285714
+126,Allow interactive terminal for mesos containerizer,10.0,0.0,0.15714285714285714,0.15714285714285714
+127,Document which fields are ignored during framework reregistration,2.0,0.0,1.0,1.0
+128,Document common use cases of authorization,1.0,0.0,1.0,1.0
+129,Improve documentation for using persistent volumes. ,2.0,0.5714285714285714,0.07142857142857142,0.07142857142857142
+130,Improve CHANGELOG and upgrades.md,3.0,0.5714285714285714,0.07142857142857142,0.07142857142857142
+131,Add a __sockets__ diagnostic endpoint to libprocess.,3.0,0.0,0.37142857142857144,0.37142857142857144
+132,Add example for mesos-execute usage of Appc images in container-image.md.,3.0,0.0,0.15714285714285714,0.15714285714285714
+133,Document isolator internals.,4.0,0.42857142857142855,0.15714285714285714,0.15714285714285714
+134,As a Developer I would like a standard way to run a Subprocess in libprocess,3.0,0.0,0.014285714285714285,0.014285714285714285
+135,Provide the users with a fully writable filesystem,13.0,0.0,0.02857142857142857,0.02857142857142857
+136,Add resource usage section to containerizer documentation,3.0,0.0,0.05714285714285714,0.05714285714285714
+137,Specification for Executor and Task life cycles in Slave,5.0,0.0,0.1,0.1
+138,Document how to start/run the agent in a systemd environment,1.0,0.0,0.0,0.0
+139,Improve containerizer logging for isolator prepare/update/cleanup.,3.0,0.14285714285714285,0.4,0.4
+140,Port flag generation logic from the autotools solution to CMake,3.0,0.7857142857142857,0.014285714285714285,0.014285714285714285
+141,SSL Improvements,13.0,0.0,1.0,1.0
+142,Windows: Curl requires zlib when built with SSL support on Windows,3.0,0.0,0.37142857142857144,0.37142857142857144
+143,Consider modifying Process_BENCHMARK_ClientServer to compare socket performance on the new OpenSSL socket implementation,3.0,0.0,0.37142857142857144,0.37142857142857144
+144,Update scheduler API documentation for re-reservations,2.0,0.0,0.18571428571428572,0.18571428571428572
+145,End to end test of framework exercising re-reservations,3.0,0.0,0.18571428571428572,0.18571428571428572
+146,Remove 'contains' CHECKS in 'update' in the 'Sorter' impls,3.0,0.0,0.18571428571428572,0.18571428571428572
+147,Update 'internal::protobuf::stripAllocationInfo' for 'source' in RESERVE operations,1.0,0.0,0.18571428571428572,0.18571428571428572
+148,Update 'injectAllocationInfo' to also update a reservation's 'source' field,1.0,0.0,0.18571428571428572,0.18571428571428572
+149,Update master scheduler call validation for 'source' in RESERVE operations,1.0,0.0,0.18571428571428572,0.18571428571428572
+150,Add GPUs to container resource consumption metrics.,3.0,0.0,0.08571428571428572,0.08571428571428572
+151,Draft design document for resource revocability by default.,8.0,0.0,0.1,0.1
+152,Add integration tests for quota,8.0,0.0,0.4142857142857143,0.38571428571428573
+153,Tests for master failover in presence of quota.,5.0,0.0,0.4142857142857143,0.38571428571428573
+154,Sequence all operations on the agent,5.0,0.0,1.0,1.0
+155,Operation Feedback Improvements,13.0,0.0,1.0,1.0
+156,Expose quota config in the GET_ROLES response.,1.0,0.0,0.2857142857142857,0.2857142857142857
+157,Add AGENT_UPDATED event with drain state.,3.0,0.0,1.0,1.0
+158,Support rdma cgroup subsystem.,8.0,0.0,0.1,0.1
+159,Improve performance of metrics snapshot.,5.0,0.0,1.0,1.0
+160,Migrate master metrics to PushGauge,8.0,0.0,1.0,1.0
+161,Relax version compatibility requirement for some modules,5.0,0.42857142857142855,0.07142857142857142,0.07142857142857142
+162,Cache module manifests while loading in ModuleManager.,3.0,0.0,0.07142857142857142,0.07142857142857142
+163,Implement a JWT HTTP authenticatee module,3.0,0.0,1.0,1.0
+164,Add the HttpAuthenticatee module interface,2.0,0.0,1.0,1.0
+165,Add ACLs for the maintenance HTTP endpoints.,3.0,0.0,0.2857142857142857,0.2857142857142857
+166,Reorganize 3rdparty directory,5.0,0.42857142857142855,0.07142857142857142,0.07142857142857142
+167,Replace non-pod static variables in module/manager.[ch]pp with pod eqivalents.,3.0,0.0,0.07142857142857142,0.07142857142857142
+168,Develop a sound plan on how to deal with disabled tests.,3.0,0.0,0.15714285714285714,0.15714285714285714
+169,Add autotools-style Mesos distributions to the CMake build system,3.0,0.7857142857142857,0.014285714285714285,0.014285714285714285
+170,Consider updating build system to allow executor authentication without SSL,3.0,0.0,1.0,1.0
+171,Test profile checkpointing in SLRP,3.0,0.0,0.4,0.4
+172,Test resource provider selection for URI disk profile adaptor.,2.0,0.0,0.4,0.4
+173,Avoid two trips through the master mailbox for state.json requests.,5.0,0.0,0.4142857142857143,0.38571428571428573
+174,Eliminate agent failover after resource checkpointing failure,3.0,1.0,0.08571428571428572,0.08571428571428572
+175,Revisit the operation status de-duplication logic in the master,3.0,0.0,0.08571428571428572,0.08571428571428572
+176,Recover frameworks from reregistered agents with operations,5.0,0.0,1.0,1.0
+177,Support reservation refinement for hierarchical roles.,12.0,0.0,0.02857142857142857,0.02857142857142857
+178,Provide a configuration option to disallow logrotate stdout/stderr options in task env,3.0,0.7857142857142857,0.2571428571428571,0.2571428571428571
+179,Grant non-root task user the permissions to access the image volume,3.0,0.7142857142857143,0.07142857142857142,0.07142857142857142
+180,Grant non-root task user the permissions to access the DOCKER_VOLUME volume,3.0,0.7142857142857143,0.07142857142857142,0.07142857142857142
+181,Set `SCMP_FLTATR_CTL_LOG` attribute during initialization of Seccomp context,3.0,0.0,0.05714285714285714,0.05714285714285714
+182,Tests for allocator recovery.,5.0,0.5714285714285714,0.4142857142857143,0.38571428571428573
+183,Run benchmark tests in ASF CI,2.0,0.14285714285714285,0.2571428571428571,0.2571428571428571
+184,Make Docker executor/containerizer resilient to Docker daemon failures.,13.0,1.0,1.0,1.0
+185,Create Design Doc for Manage offers in allocator,5.0,0.7857142857142857,0.0,0.0
+186,Implement AppC image discovery.,5.0,0.0,0.02857142857142857,0.02857142857142857
+187,"Simplify JSON::* by providing ""jsonify"" along the lines of ""stringify""",3.0,0.42857142857142855,0.07142857142857142,0.07142857142857142
+188,Implement partition tests for the HTTP Scheduler API.,5.0,0.35714285714285715,0.15714285714285714,0.15714285714285714
+189,Design document for interactive terminal for mesos containerizer,4.0,0.0,0.15714285714285714,0.15714285714285714
+190,Add cgroups memory stats API,2.0,0.0,0.15714285714285714,0.15714285714285714
+191,Rework Jenkins build script,3.0,0.21428571428571427,0.2,0.2
+192,Modularize URI fetcher plugin interface.  ,3.0,0.07142857142857142,0.02857142857142857,0.02857142857142857
+193,Add appc/runtime isolator for runtime isolation for appc images.,13.0,0.07142857142857142,0.02857142857142857,0.02857142857142857
+194,Make all SLRP tests become non-root tests.,2.0,0.0,0.4,0.4
+195,Support v1 Executor API over gRPC.,8.0,0.0,0.4,0.4
+196,Support gRPC server streaming calls in libprocess.,5.0,0.0,0.4,0.4
+197,Support v1 Operator Master synchronous API over gRPC.,8.0,0.0,0.4,0.4
+198,Support v1 Operator Master streaming API over gRPC.,8.0,0.0,0.4,0.4
+199,Support v1 Operator Agent synchronous API over gRPC.,8.0,0.0,0.4,0.4
+200,Design gRPC server and streaming support in libprocess.,8.0,0.0,0.4,0.4
+201,Support gRPC server for unary calls in libprocess.,5.0,0.0,0.4,0.4
+202,Support v1 Scheduler API over gRPC.,8.0,0.0,0.4,0.4
+203,Metrics Improvements,13.0,0.0,1.0,1.0
+204,Expose more network statistics for containers on CNI network in the `network/cni` isolator.,5.0,0.0,0.0,0.0
+205,Build `network/cni` isolator with `libnl` support,3.0,0.07142857142857142,0.05714285714285714,0.05714285714285714
+206,Benchmark tests to reproduce quota limit chopping behavior,8.0,0.42857142857142855,0.2571428571428571,0.2571428571428571
+207,Add global and per-framework metrics for invalid and unauthorized operations,2.0,0.0,1.0,1.0
+208,Add recommended accept/decline/suppress/revive behavior to scheduler docs,2.0,0.21428571428571427,1.0,1.0
+209,Add allocator counter metric for number of different resource types allocated,3.0,1.0,0.2571428571428571,0.2571428571428571
+210,Preparation for v2 API: v1 Tech Debt,13.0,0.0,1.0,1.0
+211,"Pull the current ""init"" process for a container out of the container.",3.0,0.0,0.08571428571428572,0.08571428571428572
+212,Remove deprecated checkpoint=false code,3.0,0.5714285714285714,0.014285714285714285,0.04285714285714286
+213,Support static address allocation in CNI,1.0,0.21428571428571427,0.05714285714285714,0.05714285714285714
+214,Add filtering capabilities to the master/agent operator APIs,13.0,0.07142857142857142,1.0,1.0
+215,Implement Secret support for environment variables,5.0,0.42857142857142855,1.0,1.0
+216,Add URI parsing function/library,2.0,0.0,0.37142857142857144,0.37142857142857144
+217,"Extend the uri::Fetcher::Plugin interface to include a ""fetchSize""",2.0,0.0,0.37142857142857144,0.37142857142857144
+218,Combine the internal::slave::Fetcher class and mesos-fetcher binary,3.0,0.0,0.37142857142857144,0.37142857142857144
+219,Refactor the mesos-fetcher binary to use the uri::Fetcher as a backend,3.0,0.0,0.37142857142857144,0.37142857142857144
+220,Add s390x builds to Mesos CI,3.0,0.07142857142857142,0.0,0.0
+221,Add the `OnTerminationPolicy` to the TaskInfo protobuf.,3.0,0.35714285714285715,0.15714285714285714,0.15714285714285714
+222,Add OnTerminationPolicy handling to the default executor.,3.0,0.35714285714285715,0.15714285714285714,0.15714285714285714
+223,Remove hard-coded principals in `PersistentVolumeEndpointsTest.SlavesEndpointFullResources`,1.0,0.0,1.0,1.0
+224,Allow `network/cni` isolator unit-tests to run with CNI plugins ,1.0,0.21428571428571427,0.05714285714285714,0.05714285714285714
+225,Rate Limiting functionality for HTTP Frameworks,5.0,0.0,0.15714285714285714,0.15714285714285714
+226,Add safety constraints for maintenance primitives.,8.0,0.0,0.2857142857142857,0.2857142857142857
+227,Add master metrics for maintenance.,3.0,0.07142857142857142,0.2857142857142857,0.2857142857142857
+228,"Decline call does not include an optional ""reason"", in the Event/Call API",3.0,0.7857142857142857,0.37142857142857144,0.37142857142857144
+229,Remove the default value for 'Environment.variables.type' field,1.0,0.0,1.0,1.0
+230,Pass the forked pid from `containerizer launch` to the agent and checkpoint it.,2.0,0.07142857142857142,0.08571428571428572,0.08571428571428572
+231,Implement authn/authz for the network/cni isolator,3.0,0.21428571428571427,0.05714285714285714,0.05714285714285714
+232,Update tests to use v1 Operator API,8.0,0.0,0.2571428571428571,0.2571428571428571
+233,Reduce the running time of benchmark tests.,2.0,0.0,0.2571428571428571,0.2571428571428571
+234,Design doc for adding resource limits support for Mesos containerizer,3.0,0.42857142857142855,0.15714285714285714,0.15714285714285714
+235,Support static IP address allocation with `DockerContainerizer`,1.0,0.0,0.05714285714285714,0.05714285714285714
+236,Add support for controlling resource limits in Mesos containerizer.,5.0,0.42857142857142855,0.15714285714285714,0.15714285714285714
+237,Remove '/system/stats.json' endpoint,1.0,0.0,1.0,1.0
+238,Problematic fork/clone performance at high load.,8.0,0.5714285714285714,0.07142857142857142,0.07142857142857142
+239,Allow modules to express if they are multi-instantiable and thread safe.,8.0,0.0,0.07142857142857142,0.07142857142857142
+240,Enable Executor->Framework message optimization for HTTP API,13.0,0.0,0.15714285714285714,0.15714285714285714
+241,Slave should kill usage slack revocable tasks if oversubscription is disabled,3.0,0.07142857142857142,0.2571428571428571,0.2571428571428571
+242,Enable Framework->Executor message optimization for HTTP API,13.0,0.0,0.15714285714285714,0.15714285714285714
+243,Slave should validate tasks using oversubscribed resources,5.0,0.7857142857142857,0.2571428571428571,0.2571428571428571
+244,Add a benchmark for task reconciliation.,1.0,0.0,0.2857142857142857,0.2857142857142857
+245,Add Socket tests,5.0,0.0,0.05714285714285714,0.05714285714285714
+246,Add memory statistics tests.,5.0,0.14285714285714285,0.014285714285714285,0.014285714285714285
+247,Proper handling of 'query' and/or 'fragment' out of 'path' in http handler.,1.0,0.0,0.07142857142857142,0.07142857142857142
+248,Update bundled libevent to 2.1.8 for autotools builds - or unbundle it.,1.0,0.0,0.15714285714285714,0.15714285714285714
+249,Add a timeout on SSL listening sockets for sockets that never complete handshaking,2.0,0.0,0.37142857142857144,0.37142857142857144
+250,Add a unit test for client-initiated SSL renegotiation,2.0,0.0,0.37142857142857144,0.37142857142857144
+251,Refactor Environment::mkdtemp into TemporaryDirectoryTest.,3.0,0.0,0.37142857142857144,0.37142857142857144
+252,"Document how containerization works in terms of entering namespaces / setting up cgroups, etc.",5.0,0.0,0.08571428571428572,0.08571428571428572
+253,Move HTB out of containers,3.0,0.0,0.014285714285714285,0.014285714285714285
+254,The /logging/toggle endpoint accepts requests with any http method,3.0,0.0,0.014285714285714285,0.04285714285714286
+255,Rewrite perf events code,5.0,0.14285714285714285,0.014285714285714285,0.014285714285714285
+256,Add const accessor to Master flags,2.0,0.14285714285714285,0.37142857142857144,0.37142857142857144
+257,Add /master/slaves and /master/frameworks/{framework}/tasks/{task} endpoints,5.0,0.0,0.05714285714285714,0.05714285714285714
+258,Handle plugin crashes gracefully in SLRP recovery.,5.0,0.0,0.4,0.4
+259,Benchmark call ingestion path on the Mesos master.,3.0,0.35714285714285715,0.15714285714285714,0.15714285714285714
+260,Command executor can overcommit the agent.,3.0,0.0,0.2857142857142857,0.2857142857142857
+261,JSON serialization should not omit empty arrays in HTTP APIs,3.0,0.21428571428571427,0.02857142857142857,0.02857142857142857
+262,Handle SSL socket read and write events separately,2.0,0.0,1.0,1.0
+263,Deprecate framework sorter.,8.0,0.0,0.2,0.2
+264,Dedicate sorter for roles.,5.0,0.0,0.2,0.2
+265,Improve metrics around active subscribers.,3.0,0.0,0.4142857142857143,0.38571428571428573
+266,Expose recovery parameters from Hierarchical allocator,3.0,0.0,0.4142857142857143,0.38571428571428573
+267,Refactor allocator recovery.,3.0,0.0,0.4142857142857143,0.38571428571428573
+268,Establish a well-defined agent state diagram,8.0,0.0,1.0,1.0
+269,Disallow executors with cpu only or memory only resources,3.0,0.0,0.2571428571428571,0.2571428571428571
+270,Update SUPPRESS/REVIVE calls to return error codes / 200 OK.,3.0,0.0,0.2857142857142857,0.2857142857142857
+271,URI stringification constructs malformed URIs.,3.0,0.21428571428571427,0.014285714285714285,0.014285714285714285
+272,Make remaining quota to offer event-driven in the allocator.,3.0,0.6428571428571429,0.2,0.2
+273,Pass FrameworkInfo to agents when applying operations,3.0,1.0,0.18571428571428572,0.18571428571428572
+274,Store a role tree in the master.,8.0,0.0,0.2857142857142857,0.2857142857142857
+275,Expose inactive resource providers through the `GET_RESOURCE_PROVIDERS` agent call.,2.0,0.0,0.4,0.4
+276,Master's /state-summary and /state spends a lot of time coalescing ranges.,5.0,0.0,0.2857142857142857,0.2857142857142857
+277,Perform incremental sorting in the random sorter.,3.0,0.6428571428571429,0.2,0.2
+278,Refactor the sorter interface to enable lazy sorting.,3.0,0.6428571428571429,0.2,0.2
+279,Encode framework-specified operation ID into CSI volume name.,1.0,0.0,0.4,0.4
+280,Validate that container paths are unique in `ContainerInfo.volumes`.,2.0,0.0,0.4,0.4
+281,CommandInfo.user not honored in docker containerizer,3.0,0.0,0.0,0.0
+282,Use composing containerizer by default in tests.,8.0,0.0,0.4142857142857143,0.38571428571428573
+283,"XXXX_HTTP_CALL macros do not work, tests are disabled",8.0,0.0,1.0,1.0
+284,Document using the gold linker for faster development on linux.,3.0,0.0,0.2857142857142857,0.2857142857142857
+285,Update endpoint handlers to use 'ObjectApprover',3.0,0.0,1.0,1.0
+286,Authorization for DESTROY and UNRESERVE is not symmetrical.,5.0,0.0,0.4142857142857143,0.38571428571428573
+287,`GET_EXECUTORS` and `/state` is not consistent between master and agent,3.0,0.0,0.02857142857142857,0.02857142857142857
+288,Add the capability to specify min/max disk size range for a profile.,5.0,0.0,0.4,0.4
+289,Surface errors for publishing CSI volumes in task status updates.,5.0,0.0,0.4,0.4
+290,Look into enabling the libarchive extraction flag ARCHIVE_EXTRACT_SECURE_NOABSOLUTEPATHS by default,2.0,0.07142857142857142,0.37142857142857144,0.37142857142857144
+291,Support docker manifest v2s2 external urls.,5.0,0.7142857142857143,0.1,0.1
+292,Support GID manager with non-sharable persistent volume.,3.0,0.7142857142857143,0.1,0.1
+293,Make logging of operations and their updates consistent,3.0,0.0,1.0,1.0
+294,"Transition agent operations to some ""lost"" state when the agent is removed.",5.0,1.0,0.4,0.4
+295,Add a `/debug` allocator endpoint to expose allocator state for debugging.,8.0,0.0,0.4,0.4
+296,Retry logic for unsuccessful `docker rm` during agent recovery,3.0,0.14285714285714285,0.4,0.4
+297,Add allocator metric for number of offers each role / framework received.,2.0,0.0,0.18571428571428572,0.18571428571428572
+298,Update FrameworkInfo.user on framework reregistration,5.0,0.0,0.0,0.0
+299,Improve `class Slave` in the allocator.,5.0,0.6428571428571429,0.2,0.2
+300,Re-enable tests impacted by request streaming support,5.0,0.0,0.15714285714285714,0.15714285714285714
+301,De-couple suppression API from clearing filters.,5.0,0.6428571428571429,0.2857142857142857,0.2857142857142857
+302,Make IO Switchboard optional for debug containers,5.0,0.2857142857142857,0.08571428571428572,0.08571428571428572
+303,Introduce an extra 'unknown' health check state.,5.0,1.0,0.4142857142857143,0.38571428571428573
+304,Command checks via agent implicitly set up IOSwitchboard but do not use it.,1.0,0.2857142857142857,0.4142857142857143,0.38571428571428573
+305,"Running 'tty' inside a debug container that has a tty reports ""Not a tty""",2.0,0.0,0.08571428571428572,0.08571428571428572
+306,Refactor the old allocator benchmarks to utilize the allocator benchmark fixture.,3.0,0.0,0.2,0.2
+307,Validation of Docker Layers Pulled From Docker Registry,3.0,0.0,0.0,0.0
+308,"Expand the ""Getting Started"" installation instructions",5.0,0.0,1.0,1.0
+309,Allocate revocable resources beyond quota guarantee.,8.0,0.0,0.4142857142857143,0.38571428571428573
+310,Reliably report executor terminations to framework schedulers.,5.0,0.0,0.0,0.04285714285714286
+311,Update style guide: Avoid object slicing,1.0,0.07142857142857142,0.02857142857142857,0.02857142857142857
+312,Namespace the stout flags,2.0,0.0,1.0,1.0
+313,Reported used resources for tasks in frameworks do not match slave tally,3.0,0.0,0.1,0.1
+314,Master should not store arbitrarily sized data in ExecutorInfo.,3.0,0.0,0.37142857142857144,0.37142857142857144
+315,Continue test suite execution across crashing tests.,8.0,0.0,0.1,0.1
+316,os::read should have one implementation,3.0,0.07142857142857142,0.014285714285714285,0.0
+317,Configure Jenkins to run Docker tests,2.0,0.07142857142857142,0.0,0.0
+318,Add support for command and arguments to mesos-execute.,5.0,0.7857142857142857,0.0,0.0
+319,Get Container Name information when launching a container task,3.0,0.42857142857142855,0.0,0.0
+320,Improve debuggability of `MockResourceProvider::send()`.,2.0,0.0,0.4,0.4
+321,Ensure that TASK_LOSTs for a hard slave drain (SIGUSR1) include a Reason.,3.0,0.7857142857142857,0.2857142857142857,0.2857142857142857
+322,Allow operators to limit the number of Docker containers on a host,3.0,0.0,1.0,1.0
+323,Introduce a copy-on-write type to enforce safe mutation with exclusive ownership.,5.0,0.6428571428571429,0.2,0.2
+324,Add the fields `ExposedPorts` and `Volumes` into Docker v1 image spec,2.0,0.7142857142857143,0.07142857142857142,0.07142857142857142
+325,Build and persist quota headroom info across allocation cycle.,3.0,0.6428571428571429,0.2,0.2
+326,Consider including public protobuf definitions in generated jar,1.0,0.0,0.18571428571428572,0.18571428571428572
+327,Restructure Web UI to make updates simpler to do.,3.0,0.07142857142857142,0.0,0.0
+328,Add Docker inspect timeout when collecting container statistics,3.0,0.0,1.0,1.0
+329,UCR doesn't isolate uts namespace w/ host networking,3.0,0.21428571428571427,0.0,0.0
+330,Recovered resources are not re-allocated until the next allocation delay.,5.0,0.7857142857142857,0.2857142857142857,0.2857142857142857
+331,Health checks should use a general mechanism to enter namespaces of the task.,3.0,0.0,0.0,0.0
+332,Consider adding a timeout to Docker executor task launch,5.0,0.0,1.0,1.0
+333,Add missing fields to agent v1 operator API,2.0,1.0,1.0,1.0
+334,Leverage helper functions to reduce boilerplate code related to v1 API.,3.0,0.0,0.4142857142857143,0.38571428571428573
+335,Look for unnecessary 'Clock::resume()' at the end of tests,2.0,0.0,1.0,1.0
+336,Non-leading master should reply to some API requests,3.0,0.0,1.0,1.0
+337,Support multiple health checks per task.,8.0,0.0,0.4142857142857143,0.38571428571428573
+338,Change the auto backend logic of backing filesystem from exclusive to inclusive.,3.0,0.6428571428571429,0.1,0.1
+339,Design doc for creating user namespaces inside containers,5.0,0.21428571428571427,0.04285714285714286,0.04285714285714286
+340,Allow the KillPolicy to specify a signal,3.0,0.0,1.0,1.0
+341,Allow the KillPolicy to specify a command,5.0,0.0,1.0,1.0
+342,"ns::clone should spawn process, which is a direct child",8.0,0.0,0.05714285714285714,0.05714285714285714
+343,Improve completed task/framework garbage collection,5.0,0.0,1.0,1.0
+344,Dump the contents of the sandbox when a test fails,3.0,0.0,0.37142857142857144,0.37142857142857144
+345,Provide a generic HTTP driver abstraction,5.0,0.0,0.18571428571428572,0.18571428571428572
+346,Add more filtering options for unversioned operator API,3.0,0.0,1.0,1.0
+347,Stop using EXIT() in master/agent initialization code,3.0,0.0,1.0,1.0
+348,Add support for incremental gzip compression.,3.0,0.0,0.2857142857142857,0.2857142857142857
+349,Add upgrade testing to the ASF CI,5.0,0.0,1.0,1.0
+350,Move some protobuf-related helpers into public headers,3.0,0.0,1.0,1.0
+351,Add support for 'docker image inspect' in our docker abstraction.,5.0,0.7857142857142857,0.08571428571428572,0.08571428571428572
+352,Enable the upgrade test script to run multiple masters/agents,3.0,0.0,1.0,1.0
+353,Report per-container metrics from host egress filter,1.0,0.0,0.04285714285714286,0.04285714285714286
+354,Metric for cpu scheduling latency from all components,8.0,0.14285714285714285,0.04285714285714286,0.04285714285714286
+355,Move implicit authorization into the authorizer,5.0,0.0,1.0,1.0
+356,Docker executor does not support general checks.,5.0,0.0,0.4142857142857143,0.38571428571428573
+357,Refactor the clone option to subprocess.,2.0,0.5714285714285714,0.07142857142857142,0.07142857142857142
+358,"Introduce ""global"" decision policy for unhealthy tasks.",8.0,0.0,0.4142857142857143,0.38571428571428573
+359,Support health policies in health checks.,8.0,0.0,0.4142857142857143,0.38571428571428573
+360,Launch subprocesses associated with specified namespaces.,8.0,0.07142857142857142,0.07142857142857142,0.07142857142857142
+361,Scheduler library's reconnection logic should be teardown-aware,3.0,0.0,1.0,1.0
+362,Show framework info in /state and /frameworks for frameworks that have orphan tasks,3.0,0.14285714285714285,0.2571428571428571,0.2571428571428571
+363,"Add abstractions of ""owned"" and ""shared"" file descriptors to libprocess.",3.0,0.0,0.37142857142857144,0.37142857142857144
+364,Clean up `FlagsBase::add`,3.0,0.07142857142857142,1.0,1.0
+365,Allow Docker v1 ImageManifests to be parsed from the output of `docker inspect`,3.0,0.0,0.08571428571428572,0.08571428571428572
+366,Enhance DispatchEvent to include demangled method name.,5.0,0.0,0.4142857142857143,0.38571428571428573
+367,Add synchronous validation for all types of Calls.,5.0,0.0,0.15714285714285714,0.15714285714285714
+368,Use snake casing for flag names consistently,1.0,0.0,0.15714285714285714,0.15714285714285714
+369,Consider allowing the libprocess caller an option to not set CLOEXEC on libprocess sockets,3.0,0.0,0.37142857142857144,0.37142857142857144
+370,Example frameworks should allow setting failover timeout,2.0,0.0,1.0,1.0
+371,Enable `Option` to handle string literals gracefully,2.0,0.0,1.0,1.0
+372,"Add ""chown"" option to CommandInfo.URI",2.0,0.07142857142857142,0.2571428571428571,0.2571428571428571
+373,Operator endpoints should accept a principal without HTTP authentication,3.0,0.0,1.0,1.0
+374,Expose TaskStatus source & reason in master's '/state' output,1.0,0.0,1.0,1.0
+375,Add explicit upgrade instructions to the docs,1.0,0.0,1.0,1.0
+376,Update Master to send revocable resources in separate offers,3.0,0.07142857142857142,0.2571428571428571,0.2571428571428571
+377,Automatically generate command-line flag documentation,3.0,0.0,1.0,1.0
+378,Add an abstraction to manage the life cycle of file descriptors.,5.0,0.14285714285714285,0.014285714285714285,0.014285714285714285
+379,Inform framework when rate limiting is active,3.0,0.0,0.0,0.0
+380,Enable mesos-reviewbot project on jenkins to use SSL,3.0,0.0,0.15714285714285714,0.15714285714285714
+381,Introduce an Either type.,5.0,0.0,0.2857142857142857,0.2857142857142857
+382,Rename ResourceStatistics for containers,8.0,0.0,0.04285714285714286,0.04285714285714286
+383,Cleanup stout build setup,3.0,0.0,0.2571428571428571,0.2571428571428571
+384,Support pre-fetching images,5.0,0.0,0.04285714285714286,0.04285714285714286
+385,Have fine grained control over OpenSSL dependency.,3.0,0.0,0.15714285714285714,0.15714285714285714
+386,Only send ShutdownFrameworkMessage to agents associated with framework.,1.0,0.07142857142857142,0.0,0.0
+387,Deprecate Role::resources in favor of Role::allocated and Role::offered.,2.0,0.21428571428571427,0.15714285714285714,0.15714285714285714
+388,Allow for optionally unbundled glog from CMake builds. ,2.0,0.0,0.15714285714285714,0.15714285714285714
+389,Allow for optionally unbundled protobuf from CMake builds.,2.0,0.0,0.15714285714285714,0.15714285714285714
+390,Rework FindPackageHelper to allow for locating xxx_ROOT_DIR.,2.0,0.0,0.15714285714285714,0.15714285714285714
+391,Allow for optionally unbundled ZooKeeper from CMake builds.,2.0,0.21428571428571427,0.15714285714285714,0.15714285714285714
+392,"Refactor the ""_ROOT_DIR"" logic into FindPackageHelper for CMake.",2.0,0.0,0.15714285714285714,0.15714285714285714
+393,Refactor master's 'updateOperation()' to not accept an update message,3.0,0.0,1.0,1.0
+394,Command health checks ignore some fields from CommandInfo.,3.0,0.0,0.4142857142857143,0.38571428571428573
+395,Disallow empty string roles,3.0,0.0,0.4142857142857143,0.38571428571428573
+396,Auto-generate protos for stout tests,2.0,0.0,0.4142857142857143,0.014285714285714285
+397,Remove plain text Credential format (after deprecation cycle),3.0,0.0,0.014285714285714285,0.04285714285714286
+398,Follow Google Style Guide for header file include order completely.,5.0,0.5714285714285714,0.07142857142857142,0.07142857142857142
+399,Standardize use of Path ,3.0,0.0,0.37142857142857144,0.37142857142857144
+400,Expose Check and HealthCheck information on Mesos HTTP endpoints.,2.0,1.0,0.0,0.0
+401,Delimiters in endpoint names are inconsistent across mesos components.,3.0,0.0,0.4142857142857143,0.38571428571428573
+402,Linux launcher may report `Failed to clone: Success` on error.,1.0,0.0,0.4,0.4
+403,Move SASL based CRAM-MD5 authentication out of libmesos.,8.0,0.0,0.15714285714285714,0.15714285714285714
+404,Expose metrics and gauges for fetcher cache usage and hit rate,2.0,0.0,0.0,0.0
+405,Consolidate functionality in stout/net and process/http,8.0,0.0,0.1,0.1
+406,Use `Connection` abstraction to compare stale connections in scheduler library.,3.0,0.0,0.15714285714285714,0.15714285714285714
+407,Fetch checksum files to inform fetcher cache use,3.0,0.0,0.1,0.1
+408,HTTP auth for CLI,3.0,0.0,0.014285714285714285,0.014285714285714285
+409,Refactor the plain JSON parsing in the docker containerizer,3.0,0.14285714285714285,0.37142857142857144,0.37142857142857144
+410,Add `EXPECT_NO_FUTURE_DISPATCHES` macro for tests.,1.0,0.0,0.02857142857142857,0.02857142857142857
+411,Agent logs should be accesible with the `/agent/log` path.,1.0,0.07142857142857142,0.02857142857142857,0.02857142857142857
+412,Add '{' on newline for function declarations in style checker,1.0,0.0,0.05714285714285714,0.05714285714285714
+413,Use `std::quoted` for strings in error messages,3.0,0.0,0.014285714285714285,0.014285714285714285

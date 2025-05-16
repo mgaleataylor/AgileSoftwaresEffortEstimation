@@ -1,0 +1,284 @@
+Summary,Custom field (Story Points),Assignee_count,Reporter_count,Creator_count
+Simplify Central SSO: eliminate ext token validation end-point,3.0,0.14409529106414534,0.2878205128205128,0.19166666666666665
+Add smtp message-id to logs,3.0,0.2879746835443038,0.3967948717948718,0.2333333333333333
+Error occuring when clicking link to activate organization,3.0,0.2879746835443038,0.3967948717948718,0.2333333333333333
+Fix AwsAssetResourceIT,3.0,0.2879746835443038,0.3967948717948718,0.2333333333333333
+GET on missing Asset file in S3 generates 500 error not 404,1.0,0.2879746835443038,0.3967948717948718,0.2333333333333333
+Create 2.1 Release for Apache,3.0,0.14409529106414534,1.0,1.0
+Ensure that PUT or POST does not create duplicate org association connections. ,2.0,0.2879746835443038,0.3967948717948718,0.2333333333333333
+Add DELETE for Admin Users,2.0,0.2879746835443038,0.3967948717948718,0.2333333333333333
+Fix GroupResourceIT.postGroupActivity() test,3.0,0.14409529106414534,0.2878205128205128,0.19166666666666665
+Fix EventsResource and IT,3.0,0.2879746835443038,0.2878205128205128,0.6916666666666667
+Fix test: clientCredentialsFlowWithHeaderAuthorization(),3.0,0.14409529106414534,0.2878205128205128,0.19166666666666665
+Unique Value Cleanup in 2.1 - cleaning up old columns for old versions,3.0,0.0,1.0,0.5
+[SPIKE] Evaluate read repair of unique values in 1.0,1.0,0.2879746835443038,0.3333333333333333,0.7083333333333333
+Test Windows phone,1.0,0.8453837597330367,0.3333333333333333,0.7083333333333333
+Test Android push notifications,1.0,0.8453837597330367,0.3333333333333333,0.7083333333333333
+Test iOS push notifications,1.0,0.8453837597330367,0.3333333333333333,0.7083333333333333
+implement build metrics in jenkins,1.0,0.8453837597330367,0.5262820512820513,0.26666666666666666
+Create a per app migration script,2.0,0.14409529106414534,0.3333333333333333,0.7083333333333333
+Ability to generate a master Jacoco coverage report,3.0,0.14409529106414534,0.2878205128205128,0.19166666666666665
+When ElasticSearch rejects a Search request Usergrid should not return 200 OK with an empty array,1.0,0.2879746835443038,1.0,1.0
+When reading messages from SQS an elevated consistency may be needed with latent replication,3.0,0.7045591425119533,0.3333333333333333,0.20833333333333331
+2.1-release: fix index batching from SQS reader,3.0,0.8453837597330367,0.5262820512820513,0.26666666666666666
+Fix NoAwsCreds rule to work outside of core. ,2.0,0.2879746835443038,0.3967948717948718,0.2333333333333333
+"When PUTing by uuid or name, add the entry into entity_id_sets column family",3.0,0.7045591425119533,0.3333333333333333,0.20833333333333331
+Delete from collection does not use SQS or the event service,3.0,0.8453837597330367,0.5262820512820513,0.26666666666666666
+remove batching in index processing,1.0,0.8453837597330367,0.5262820512820513,0.26666666666666666
+Create a job to remove duplicate connections and fix connection write logic,3.0,0.7045591425119533,0.3333333333333333,0.20833333333333331
+Create a job to clean unused edges,3.0,0.7045591425119533,0.3333333333333333,0.20833333333333331
+Remove UUID field encoding in our ES fields,3.0,0.8453837597330367,0.3333333333333333,0.7083333333333333
+Test Notification Migration ,3.0,0.8453837597330367,0.5262820512820513,0.26666666666666666
+Automate upload of api baas 2.1 build to s3,3.0,0.0,0.5262820512820513,0.26666666666666666
+Add Background processing for delete application,2.0,0.8453837597330367,0.5262820512820513,0.26666666666666666
+get apm/apigeeMobileConfig throws exception when its not set,3.0,0.8453837597330367,0.5262820512820513,0.26666666666666666
+Separate database system and system bootstrap,3.0,0.7045591425119533,0.3333333333333333,0.20833333333333331
+Style generated Docs like the Website,3.0,0.14409529106414534,0.2878205128205128,0.19166666666666665
+Create a tool with the capability to wipe an application from Cassandra,3.0,0.8453837597330367,1.0,1.0
+Include distances in geoquery responses,3.0,0.8453837597330367,1.0,1.0
+Remove duplicate add to collection on write path,3.0,0.2879746835443038,1.0,1.0
+Upgrade Shiro to be current version,1.0,0.14409529106414534,1.0,1.0
+run specific migration,1.0,0.8453837597330367,0.5262820512820513,0.26666666666666666
+Batch interval in seconds not honored,3.0,0.7045591425119533,0.3333333333333333,0.20833333333333331
+Unable to do case sensitive queries using '=',3.0,0.2879746835443038,0.3967948717948718,0.2333333333333333
+Fix CorePersistant Properties and Stack Properties to not overlap when using Aws SDK,2.0,0.0,0.3967948717948718,0.2333333333333333
+Re-index using AmazonAsyncEventService should support updated date,3.0,0.7045591425119533,0.07467948717948719,0.5458333333333334
+Add proper error checking to Asset Code along with error checking tests.,3.0,0.2879746835443038,0.3967948717948718,0.2333333333333333
+"Convert Usergrid docs & Update for 2.0: Org & App Management, User Management",3.0,0.14409529106414534,0.2878205128205128,0.19166666666666665
+Convert Usergrid docs & Update for 2.0: Counters & Events,3.0,0.14409529106414534,0.2878205128205128,0.19166666666666665
+Convert Usergrid docs & Update for 2.0: Asset & File Mgmt and Geolocation,3.0,0.14409529106414534,0.2878205128205128,0.19166666666666665
+Convert Usergrid docs & Update for 2.0: Security & Auth and User Mgmt,3.0,0.14409529106414534,0.2878205128205128,0.19166666666666665
+Convert Usergrid docs & Update for 2.0: Push Notifications,3.0,0.14409529106414534,0.2878205128205128,0.19166666666666665
+"Convert Usergrid docs & Update for 2.0: Data Storage, Queries and Connections",3.0,0.14409529106414534,0.2878205128205128,0.19166666666666665
+Convert Usergrid docs & Update for 2.0: Introduction & Getting Started,3.0,0.14409529106414534,0.2878205128205128,0.19166666666666665
+Release 2.0 with Admin email fixes,3.0,0.8453837597330367,0.5262820512820513,0.26666666666666666
+Investigate Serialization issue for Notifications,3.0,0.8453837597330367,0.5262820512820513,0.26666666666666666
+Start Usergrid graduation process,3.0,0.14409529106414534,0.2878205128205128,0.19166666666666665
+[SPIKE] Review 'ignored tests',3.0,0.14409529106414534,1.0,1.0
+Fix and prune Usergrid tools in 2.1,3.0,0.14409529106414534,0.2878205128205128,0.19166666666666665
+Confirm that using where tokens in queries works in 2.1 ,1.0,0.2879746835443038,0.3967948717948718,0.2333333333333333
+Confirm that date fields are not created in 2.1 ,1.0,0.2879746835443038,0.3967948717948718,0.2333333333333333
+QL for contains 'text*' does not appear to work,3.0,0.8453837597330367,1.0,1.0
+[SPIKE] Look at 'Fix X test' and close if needed,2.0,0.8453837597330367,1.0,1.0
+ImportAdmins tool should merge organizations of duplicate users,3.0,0.14409529106414534,0.2878205128205128,0.19166666666666665
+Complete Multi Region ES management implementation,1.0,0.8453837597330367,0.3333333333333333,0.7083333333333333
+Confirm 2.1 LICENSE file has requisite versions and module names,3.0,0.2879746835443038,1.0,1.0
+Implement the ability to track the storage used by an app,3.0,0.0,1.0,0.5
+Test and Confirm cross-region message delivery for 2.0 in an execution environment,2.0,0.0,1.0,0.5
+New ExportApp tool,1.0,0.14409529106414534,0.2878205128205128,0.19166666666666665
+Unable to run 2.0 to 2.1 data migration on large data set.,3.0,0.7045591425119533,0.07467948717948719,0.5458333333333334
+Limit on Queries results in a highly variable number of results,3.0,0.14409529106414534,1.0,1.0
+Refactor App Info Migration to make it functional,3.0,0.8453837597330367,1.0,1.0
+Add a separate email address for approving new Org Admin users which can be different from approving new Orgs,3.0,0.8453837597330367,1.0,1.0
+WebApplicationException / Uncaught Exception embarassment,3.0,0.2879746835443038,1.0,1.0
+Validate JMX Meters / Timers are the ones we want to be in place for measuring/monitoring performance,3.0,0.7045591425119533,1.0,1.0
+Instance Validation Script,2.0,0.0028735632183908046,1.0,1.0
+Merge master to two-dot-o branches & rewrite tests to use new framework,2.0,0.14409529106414534,0.2878205128205128,0.19166666666666665
+SNS Topic/Queue Implementation should use the Topics.subscribe helper methid,2.0,0.15173680714532028,1.0,0.5
+Exception on system/database/setup,2.0,0.8453837597330367,0.5262820512820513,0.26666666666666666
+[FIXED?] NPE in CpEntityManager.validate,3.0,0.0,1.0,0.5
+MVCC serialization error on reindex,3.0,0.8453837597330367,1.0,1.0
+External Set of REST Tests that confirms Usergrid functionality in an execution environment,1.0,0.0028735632183908046,1.0,1.0
+Empty Response when using cursors after ~50 pages,3.0,0.0,1.0,0.5
+Update Usergrid 1.0 search to use concurrent search per shard,3.0,0.7045591425119533,0.3333333333333333,0.20833333333333331
+Change MvccEntitySerializationStrategyV3Impl to use native JSON when storing in the column value,3.0,0.8453837597330367,0.3333333333333333,0.7083333333333333
+"When setting accesstokenttl to 0, client credentials auth still returns 604800",3.0,0.2879746835443038,0.023397435897435898,0.5041666666666667
+SNS Queueing/Messaging should create RAW subscriptions,1.0,0.15173680714532028,1.0,0.5
+Improve performance of ExportAdmins via multi-threading,3.0,0.14409529106414534,0.2878205128205128,0.19166666666666665
+Test Not Passing: AssetResourceIT,1.0,0.14409529106414534,0.5262820512820513,0.7666666666666666
+Test Not Passing: ApplicationResourceIT,2.0,0.7045591425119533,0.3333333333333333,0.20833333333333331
+Implement Bucketing Algorithm for assignment of Application Index Aliases to Physical Indexes,3.0,0.8453837597330367,1.0,1.0
+2.0 does not correctly handle inferred type of Date with optional time,3.0,0.2879746835443038,1.0,1.0
+Rationalize JMX Metrics in 2.0 branch,2.0,0.0,1.0,0.5
+Implement SNS-based Queue Provider in 2.0,2.0,0.0,1.0,0.5
+SNS Queue Manager uses ARN to read instead of URL,1.0,0.15173680714532028,1.0,0.5
+Audit and review JMX Metrics for consistency,2.0,0.15173680714532028,1.0,0.5
+SNSQueueManagerImpl needs better error handling and messaging,1.0,0.15173680714532028,1.0,0.5
+JMX Metrics/Counters for Cassandra,1.0,0.8453837597330367,1.0,1.0
+Use combo boxes instead of text areas for inputting multiple pieces of data,3.0,0.2712826494255708,0.020833333333333336,0.020833333333333336
+Decrease line spacing/padding so that more data is visible in list views,1.0,0.2712826494255708,0.020833333333333336,0.020833333333333336
+Reorganize the query area on data view so that more of the data is visible,2.0,0.2712826494255708,0.020833333333333336,0.020833333333333336
+Don't modify the path when an entity is selected in the data view,2.0,0.2712826494255708,0.020833333333333336,0.020833333333333336
+Notifications disappear too quickly. Increase timeout and have them stay on mouseover,2.0,0.2712826494255708,0.020833333333333336,0.020833333333333336
+cursor in username field on login jumps to the end with update,1.0,0.2712826494255708,0.020833333333333336,0.020833333333333336
+ApplicationResource can no longer update user token ttl's. ,2.0,0.0,0.3967948717948718,0.2333333333333333
+Add organizations to Admin User import/export (usergrid-tools.jar),3.0,0.14409529106414534,0.2878205128205128,0.19166666666666665
+Test Not Passing: DevicesresourceIT ,1.0,0.7045591425119533,0.5262820512820513,0.7666666666666666
+Test Not Passing: ManagementResourceIT,2.0,0.14409529106414534,0.5262820512820513,0.7666666666666666
+Test Not Passing: StaleIndexCleanupTests,1.0,0.2879746835443038,0.5262820512820513,0.7666666666666666
+Test Not Passing:  NotificationsIT.testPaging:90,2.0,0.8453837597330367,0.5262820512820513,0.26666666666666666
+Test Not Passing: ConnectionResourceTest.connectionsLoopbackTest:103 NullPointer,2.0,0.7045591425119533,0.5262820512820513,0.7666666666666666
+Test Not Passing: AdminUsersIT,2.0,0.2879746835443038,0.5262820512820513,0.7666666666666666
+AdminEmailEncodingIT,2.0,0.2879746835443038,0.5262820512820513,0.7666666666666666
+Test Not Passing: RegistrationIT,2.0,0.2879746835443038,0.5262820512820513,0.7666666666666666
+Test Not Passing: ContentTypeResourceIT,2.0,0.2879746835443038,0.5262820512820513,0.7666666666666666
+Test Not Passing: PermissionsResourceIT,2.0,0.2879746835443038,0.5262820512820513,0.7666666666666666
+Test Not Passing: OrganizationsIT,2.0,0.2879746835443038,0.5262820512820513,0.7666666666666666
+Test Not Passing:  ManagementResourceIT,2.0,0.8453837597330367,0.5262820512820513,0.26666666666666666
+Test Not Passing: AndOrQueryTest,1.0,0.2879746835443038,0.3967948717948718,0.2333333333333333
+Test Not Passing: PagingResourceIT,2.0,0.2879746835443038,0.3967948717948718,0.2333333333333333
+Test Not Passing: ConnectionsServiceIT.testEntityConnections,3.0,0.7045591425119533,0.5262820512820513,0.7666666666666666
+Merge master -> two-dot-o: SSO & Assets changes,1.0,0.14409529106414534,0.2878205128205128,0.19166666666666665
+Update SQS provider implementation to use Observable,2.0,0.8453837597330367,1.0,1.0
+ElasticSearch Type Mapping has _all in wrong place,1.0,0.15173680714532028,1.0,0.5
+Create new parser for Scrolling api,1.0,0.2879746835443038,0.3967948717948718,0.2333333333333333
+"Update mapping to use ""dynamic"": ""strict"" to prevent new fields from being added dynamically",1.0,0.15173680714532028,1.0,0.5
+Portal stores the password of an app user after it is created in clear-text,3.0,0.2712826494255708,1.0,1.0
+401 ServiceResourceNotFoundException instead of expected 404,2.0,0.2879746835443038,1.0,1.0
+Update edge and type naming conventions,1.0,0.7045591425119533,0.5262820512820513,0.7666666666666666
+1.0.2 Release Candidate 2,2.0,0.14409529106414534,1.0,1.0
+1.0.2 Release Candidate 1,2.0,0.14409529106414534,1.0,1.0
+Test Not Passing: RolesServiceIT.deleteRoles,1.0,0.2879746835443038,0.5262820512820513,0.7666666666666666
+Test Not Passing: ConnectionsServiceIT,1.0,0.8453837597330367,0.5262820512820513,0.26666666666666666
+Test Not Passing: AppInfoMigrationPluginTest,1.0,0.8453837597330367,0.5262820512820513,0.26666666666666666
+Test Not Passing: ServiceInvocationIT,1.0,0.8453837597330367,0.5262820512820513,0.26666666666666666
+Test Not Passing: GroupServiceIT - Services,1.0,0.8453837597330367,0.5262820512820513,0.26666666666666666
+Test Not Passing: OrganizationIT Failing,3.0,0.8453837597330367,0.5262820512820513,0.26666666666666666
+Graph deletes not going through. ,3.0,0.2879746835443038,0.3967948717948718,0.2333333333333333
+More than one connection does not get created when running batch index on connection edges,3.0,0.2879746835443038,0.3967948717948718,0.2333333333333333
+AwsSdkS3BinaryStore dependencies break the REST module tests,3.0,0.0,0.2878205128205128,0.19166666666666665
+Issue with Unique Values - NPE,3.0,0.0,1.0,0.5
+Test Not Passing: IteratingQueryIt failing due to bad serializer,2.0,0.7045591425119533,0.5262820512820513,0.7666666666666666
+Implement Reindex By Collection,3.0,0.7045591425119533,0.5262820512820513,0.7666666666666666
+Test Not Passing: StaleIndexCleanup Failing due to old version getting returned from search,3.0,0.8453837597330367,0.5262820512820513,0.26666666666666666
+Implement search by connections in core,3.0,0.7045591425119533,0.5262820512820513,0.7666666666666666
+Entities created on the portal during 'create collection' do not get persisted,3.0,0.2712826494255708,1.0,1.0
+Entity does not return from collection when ql=select *,3.0,0.0,1.0,0.5
+Test Not Passing: NotSubPropertyIT,2.0,0.8453837597330367,1.0,1.0
+Test Not Passing: IntersectionUnionPagingIT,2.0,0.8453837597330367,1.0,1.0
+Test Not Passing: IntersectionTransitivePagingIT,2.0,0.8453837597330367,1.0,1.0
+Test Not Passing: EntityManagerFactoryImplIT,1.0,0.8453837597330367,1.0,1.0
+Test Not Passing: PerformanceEntityRebuildIndexTest,1.0,0.2712826494255708,1.0,1.0
+Test Not Passing: PathQueryIT,2.0,0.8453837597330367,1.0,1.0
+Test Not Passing: IndexIT,2.0,0.8453837597330367,1.0,1.0
+Test Not Passing: GeoQueryBooleanTest,2.0,0.8453837597330367,1.0,1.0
+Test Not Passing: GeoIT,1.0,0.7045591425119533,1.0,1.0
+Test Not Passing: EntityDictionaryIT,2.0,0.8453837597330367,1.0,1.0
+Test Not Passing: CountingMutatorIT,2.0,0.8453837597330367,1.0,1.0
+Test Not Passing: MessagesIT,2.0,0.8453837597330367,1.0,1.0
+Test Not Passing: AllEntitiesInSystemObservableIT,2.0,0.8453837597330367,1.0,1.0
+Test Not Passing: IndexServiceTest,2.0,0.8453837597330367,1.0,1.0
+Test Not Passing: InMemoryAsyncIndexServiceTest,2.0,0.8453837597330367,1.0,1.0
+Additional testing of Usergrid SSO,3.0,0.14409529106414534,0.2878205128205128,0.19166666666666665
+Refactor compaction operations to be declarative in 2.1,3.0,0.7045591425119533,0.3333333333333333,0.20833333333333331
+Reindex endpoint should not be case-sensitive,1.0,0.2879746835443038,1.0,1.0
+Test Not Passing:  EntityConnectionsIT,3.0,0.7045591425119533,0.5262820512820513,0.7666666666666666
+Document the new IO framework,2.0,0.2879746835443038,0.5262820512820513,0.7666666666666666
+Refactor/Complete Delete Entity in 2.1,2.0,0.2879746835443038,0.5262820512820513,0.7666666666666666
+Implement Deleting Edge out of index,1.0,0.2879746835443038,0.5262820512820513,0.7666666666666666
+Implement Async Indexing on New Edge,1.0,0.7045591425119533,0.5262820512820513,0.7666666666666666
+Spike: Core test suite should complete in Maven,1.0,0.0,0.5262820512820513,0.26666666666666666
+Test Import / Export of Admin Users,2.0,0.14409529106414534,0.2878205128205128,0.19166666666666665
+Test Usergrid Central SSO,3.0,0.14409529106414534,0.2878205128205128,0.19166666666666665
+Merge two-dot-o-dev into two-dot-o,3.0,0.14409529106414534,0.5262820512820513,0.7666666666666666
+Confirm PUT by Name Does not Fetch/Query ES,1.0,0.8453837597330367,1.0,1.0
+[SPIKE] Investigate support for Central Usergrid SSO in the Portal,3.0,0.14409529106414534,0.2878205128205128,0.19166666666666665
+Complete SNS/SQS async indexing api,3.0,0.15173680714532028,0.3333333333333333,0.7083333333333333
+Test and confirm Raw Push Notifications on Windows,3.0,0.8453837597330367,1.0,1.0
+Test Not Passing: IteratingQueryIT + collectionIT,1.0,0.7045591425119533,0.5262820512820513,0.7666666666666666
+Test app_info migration,3.0,0.8453837597330367,1.0,1.0
+Test Not Passing: staleIndexCleanup,1.0,0.2879746835443038,0.3967948717948718,0.2333333333333333
+Test Not Passing: CollectionIT Tests,3.0,0.8453837597330367,0.5262820512820513,0.26666666666666666
+Implement ability to createItemInCollection using the graph.,3.0,0.2879746835443038,0.3967948717948718,0.2333333333333333
+Docs for new Central Usergrid SSO feature,2.0,0.14409529106414534,0.2878205128205128,0.19166666666666665
+Exception when trying to post/retrieve an asset from Amazon S3,3.0,0.14409529106414534,0.009615384615384616,0.5
+ES Cursors not working in 2.1,3.0,0.8453837597330367,0.5262820512820513,0.26666666666666666
+Make all Cassandra keyspace names configurable,3.0,0.14409529106414534,0.2878205128205128,0.19166666666666665
+Add metrics to external token validation endpoint,3.0,0.14409529106414534,0.2878205128205128,0.19166666666666665
+Disable Admin User signups when external token validation enabled,3.0,0.14409529106414534,0.2878205128205128,0.19166666666666665
+Fix testCursorFormat in queryIndex Module,2.0,0.2879746835443038,0.3967948717948718,0.2333333333333333
+Add a query parameter to enable the hiding of sensitive information in API resposnes,1.0,0.004310344827586207,1.0,1.0
+Fix push issues close connection issues,3.0,0.8453837597330367,0.5262820512820513,0.26666666666666666
+[SPIKE] Ability for one Usergrid instance to delegate authentication to another ,3.0,0.14409529106414534,0.2878205128205128,0.19166666666666665
+Portal appears to hang when it gets a 401,1.0,0.2712826494255708,1.0,1.0
+Ensure USERGRID-530 is addressed in two-dot-o(-dev),3.0,0.2879746835443038,1.0,1.0
+[FIXED?] Add re-index resume,3.0,0.7045591425119533,0.3333333333333333,0.20833333333333331
+Update Index prefix for management app to use the cassandra keyspace name,1.0,0.8453837597330367,1.0,1.0
+Create migration for app infos into new format,1.0,0.8453837597330367,0.5262820512820513,0.26666666666666666
+Refactor Org app relationship to remove app info object and use graph to application object,1.0,0.8453837597330367,0.5262820512820513,0.26666666666666666
+Endpoint for checking storage consumed,3.0,0.8453837597330367,1.0,1.0
+[SPIKE] Deadletter - Figure out why some entities are having indexing problems,3.0,0.0,1.0,0.5
+Add Queue Length to /status page,3.0,0.8453837597330367,1.0,1.0
+Test Not Passing: CPHeadEntityNull in Services tests,3.0,0.8453837597330367,0.5262820512820513,0.26666666666666666
+Improve uncaught errors' http response,1.0,0.004310344827586207,0.0,0.0
+Change our index structure for static mapping and cleanup api,2.0,0.7045591425119533,0.3333333333333333,0.20833333333333331
+[SPIKE] Look into broken tests and open tickets,3.0,0.8453837597330367,1.0,1.0
+ Load Test with 2.1,3.0,0.15173680714532028,1.0,0.5
+REST Test for Create App not returning,2.0,0.14409529106414534,1.0,1.0
+Endpoint to get the size of the SQS index queue,2.0,0.8453837597330367,1.0,1.0
+Deleting a connection to an Asset should not delete the Asset's data,1.0,0.14409529106414534,0.2878205128205128,0.19166666666666665
+iOS Push Notification Errors,3.0,0.8453837597330367,1.0,1.0
+Write external ES test to ensure we get even routing across the ES cluster,3.0,0.004310344827586207,1.0,1.0
+Update copyright in footer of Portal to 2015,1.0,0.2712826494255708,1.0,1.0
+BaaS Queries returning Entities which do not match the input Query,3.0,0.15173680714532028,1.0,0.5
+[SPIKE] Creating collections in the portal throws an error,1.0,0.2712826494255708,1.0,1.0
+Refactor current collection and connection code to quickly fix our current read issues,3.0,0.7045591425119533,0.3333333333333333,0.20833333333333331
+Write/Review Test Framework Guide,1.0,0.2879746835443038,1.0,1.0
+Querying by application name in rest test framework doesn't work,3.0,0.2879746835443038,0.3967948717948718,0.2333333333333333
+Convert BasicIT over to new rest test framework,2.0,0.2879746835443038,0.3967948717948718,0.2333333333333333
+More than 10 apps will not be returned for organizations,1.0,0.7045591425119533,0.3333333333333333,0.20833333333333331
+Refactor jersey resource calls in rest test framework to use generics.,3.0,0.2879746835443038,0.3967948717948718,0.2333333333333333
+Create app has stopped returning new apps,3.0,0.14409529106414534,0.3333333333333333,0.7083333333333333
+Update index aliases to be created atomically,1.0,0.7045591425119533,0.3333333333333333,0.20833333333333331
+"CLONE - Could not retrieve unique value for field name, unable to verify",3.0,0.8453837597330367,0.1076923076923077,0.55
+Put entity cleanup and entity delete tasks back to delete by batch.,3.0,0.7045591425119533,0.3333333333333333,0.20833333333333331
+Update cloudformation to use dedicated elasticsearch master nodes,1.0,0.7045591425119533,0.3333333333333333,0.20833333333333331
+Add Dead Letter Queue,3.0,0.15173680714532028,0.5262820512820513,0.7666666666666666
+Long Pauses and Errors from ES on deleteByQuery,3.0,0.0,1.0,0.5
+Fix remaining graphite timers in CpEntityManager,1.0,0.2879746835443038,0.3967948717948718,0.2333333333333333
+[SPIKE] Investigate geo location re-index failure,3.0,0.8453837597330367,0.3333333333333333,0.7083333333333333
+Geospatial/Geolocation query results are not sorted by distance,3.0,0.2879746835443038,1.0,1.0
+Change ElasticSearch mapping behavior to be per index,3.0,0.7045591425119533,0.3333333333333333,0.20833333333333331
+Upgrade rx to latest version,3.0,0.7045591425119533,0.5262820512820513,0.7666666666666666
+Remove redundant appinfos collections in ManagementServiceImpl,3.0,0.14409529106414534,0.2878205128205128,0.19166666666666665
+Implement Windows Raw Push Notifications for 1.0,3.0,0.8453837597330367,1.0,1.0
+Investigate ElasticSearch timeout such that a long-running GC does not pause all ES and Tomcat,3.0,0.0,1.0,0.5
+SPIKE: UnexpectedEOF Error,3.0,0.0,1.0,0.5
+[SPIKE] SMTP server that starts with the JVM for email rest verification,3.0,0.0,0.3967948717948718,0.2333333333333333
+Remove redundant createIndex calls,3.0,0.8453837597330367,0.5262820512820513,0.26666666666666666
+"[SPIKE] Verify that during an ES re-index, existing documents are force updated",3.0,0.0,0.3333333333333333,0.20833333333333331
+Create test that proves the issue before making any rest tier changes,1.0,0.2879746835443038,0.3967948717948718,0.2333333333333333
+Cannot create collections due to new App Delete feature,3.0,0.14409529106414534,0.2878205128205128,0.19166666666666665
+SPIKE: Profile Usergrid Search,3.0,0.7045591425119533,0.5262820512820513,0.7666666666666666
+Consider Not Logging this Exception,1.0,0.2879746835443038,1.0,1.0
+Set Build Version to Java 8,3.0,0.0,0.3333333333333333,0.20833333333333331
+Enable system properties for customizable keyspaces,3.0,0.2879746835443038,0.3333333333333333,0.7083333333333333
+Fix hotspot from continuous writes of entities (Shawn),1.0,0.7045591425119533,0.3333333333333333,0.20833333333333331
+Create UniqueIndexCleanup tool that works with 2.0,3.0,0.2879746835443038,0.3967948717948718,0.2333333333333333
+Create Batch Spike for Elastic Search (Todd),3.0,0.8453837597330367,0.5262820512820513,0.26666666666666666
+Fix Import Resource endpoint to use services to lookup import information,3.0,0.7045591425119533,0.3333333333333333,0.20833333333333331
+Migrate Import service tests to rest tests to better emulate end to end testing,3.0,0.2879746835443038,0.3967948717948718,0.2333333333333333
+Change the path for getting status for Import job,2.0,0.7045591425119533,0.1076923076923077,0.55
+Clean up migration code (move from Core to CP),3.0,0.7045591425119533,0.1076923076923077,0.55
+3 Change serialization format that is used to store entities in Cassandra,3.0,0.7045591425119533,0.1076923076923077,0.55
+SQS QueueManager implementation,1.0,0.15173680714532028,0.2878205128205128,0.6916666666666667
+Ensure that all services that use amazon keys are using the same identifier for those amazon keys.,3.0,0.2879746835443038,0.3967948717948718,0.2333333333333333
+Create REST test for app delete,2.0,0.14409529106414534,0.1076923076923077,0.55
+Fix ImportIT REST tests,2.0,0.2879746835443038,0.1076923076923077,0.55
+Fix PropertiesResourceIT,3.0,0.2879746835443038,0.3967948717948718,0.2333333333333333
+Update ExportResourceIT to new REST test framework,3.0,0.2879746835443038,0.3967948717948718,0.2333333333333333
+Fix AccessTokenIT,3.0,0.2879746835443038,0.3967948717948718,0.2333333333333333
+Fix RetrieveUsersTest,1.0,0.2879746835443038,0.3967948717948718,0.2333333333333333
+Fix ApplicationRequestCounterIT,3.0,0.2879746835443038,0.3967948717948718,0.2333333333333333
+Fix AdminEmailEncodingIT,1.0,0.2712826494255708,0.3967948717948718,0.7333333333333333
+Fix BrowserCompatibilityTest,3.0,0.2879746835443038,0.3967948717948718,0.2333333333333333
+Fix RegistrationIT,1.0,0.2712826494255708,0.3967948717948718,0.7333333333333333
+Fix OwnershipResourceIT,1.0,0.2879746835443038,0.3967948717948718,0.2333333333333333
+Fix ContentTypeResourceIT,1.0,0.2712826494255708,0.3967948717948718,0.7333333333333333
+Test Not Passing: CollectionsResourceIT,2.0,0.2879746835443038,0.3967948717948718,0.2333333333333333
+Fix AssetResourceIT,3.0,0.2879746835443038,0.3967948717948718,0.2333333333333333
+Fix ApplicationResourceIT,3.0,0.14409529106414534,0.3967948717948718,0.7333333333333333
+Fix ApplicationRequestCounterIT,3.0,0.2879746835443038,0.3967948717948718,0.2333333333333333
+Implement Superuser methods in Management Class for REST tests,3.0,0.2879746835443038,0.5262820512820513,0.7666666666666666
+Implement Admin User methods in Management Class for REST tests,3.0,0.2879746835443038,0.5262820512820513,0.7666666666666666
+ES cursor errors should be translated for our users,3.0,0.0,0.3333333333333333,0.20833333333333331
+Remove ARS Maquette font from Portal,2.0,0.14409529106414534,0.0,0.5
+two-dot-o: Error in Portal after entity create,3.0,0.0,0.2878205128205128,0.19166666666666665
+Inconsistent missing resource status code,3.0,0.0,0.009615384615384616,0.0
+GET an non-exists entity by ID or Name throws 401 if no authorisation is required,2.0,0.2879746835443038,0.004166666666666667,0.5041666666666667
+"Fix ""start paging"" in the two-dot-o branch",3.0,0.14409529106414534,0.2878205128205128,0.19166666666666665
+"Fix the ""test 10 app limit"" test in the two-dot-o branch",3.0,0.14409529106414534,0.2878205128205128,0.19166666666666665
+SaveCollectionMembers in Export does not correctly export all entity data,3.0,0.14409529106414534,0.009615384615384616,0.5
+the result from the Setup call (to setup DB) should not say OK when it failed to create KS (or other critical failure),3.0,0.0,0.1076923076923077,0.05
+Cannot delete an entity that has a connection to it,3.0,0.2879746835443038,0.1076923076923077,0.55
+Empty string doesn't remove an entity property (null doesn't work either),3.0,0.005469039673711531,0.1076923076923077,0.55

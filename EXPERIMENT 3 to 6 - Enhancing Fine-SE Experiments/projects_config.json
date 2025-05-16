@@ -1,0 +1,29 @@
+{
+    "TOKEN": "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",
+    "ISSUE_COMPLETION_KEY": ["Done", "Resolved", "Completed", "Fixed", "Closed", "Complete"],
+
+    "USERGRID": {
+        "jira_domain": "issues.apache.org/jira",
+        "jira_project_key": "USERGRID",
+        "jira_url_version": "2",
+        "github_repos": "apache/usergrid",
+        "output_dir": "data/USERGRID/",
+        "story_point_field": "customfield_12310293"
+    },
+    "MESOS": {
+        "jira_domain": "issues.apache.org/jira",
+        "jira_project_key": "MESOS",
+        "jira_url_version": "2",
+        "github_repos": "apache/mesos",
+        "output_dir": "data/MESOS/",
+        "story_point_field": "customfield_12310293"
+    },
+    "DATA_MANAGEMENT": {
+        "jira_domain": "rubinobs.atlassian.net",
+        "jira_project_key": "DM",
+        "jira_url_version": "3",
+        "github_repos": "lsst-epo",
+        "output_dir": "data/DATA_MANAGEMENT/",
+        "story_point_field": "customfield_10034"
+    }
+}

@@ -1,0 +1,20 @@
+
+Trial 0 => val_loss=0.7933, params={'model_lr': 0.00044462462922186, 'batch_size': 16, 'activation_fn': 'relu', 'dropout_prob': 0.10841418190162325, 'hidden_dim': 32}
+
+Trial 1 => val_loss=0.7951, params={'model_lr': 0.0004672944041219703, 'batch_size': 8, 'activation_fn': 'relu', 'dropout_prob': 0.30382050526591337, 'hidden_dim': 64}
+
+Trial 2 => val_loss=0.7991, params={'model_lr': 6.455700258170083e-05, 'batch_size': 8, 'activation_fn': 'tanh', 'dropout_prob': 0.21899826954964952, 'hidden_dim': 64}
+
+Trial 3 => val_loss=0.7889, params={'model_lr': 0.0004787036315203334, 'batch_size': 32, 'activation_fn': 'tanh', 'dropout_prob': 0.1468258828910284, 'hidden_dim': 64}
+
+Trial 4 => val_loss=0.8025, params={'model_lr': 2.571983971329967e-05, 'batch_size': 16, 'activation_fn': 'relu', 'dropout_prob': 0.2504657886485231, 'hidden_dim': 32}
+
+Trial 5 => val_loss=0.7968, params={'model_lr': 2.3493605571426494e-05, 'batch_size': 16, 'activation_fn': 'relu', 'dropout_prob': 0.39399377865449137, 'hidden_dim': 32}
+
+##Trial 6 => val_loss=0.7870, params={'model_lr': 5.394061969587102e-05, 'batch_size': 32, 'activation_fn': 'tanh', 'dropout_prob': 0.1627421470175328, 'hidden_dim': 64}
+
+Trial 7 => val_loss=0.7906, params={'model_lr': 0.0002645877186840642, 'batch_size': 16, 'activation_fn': 'leaky_relu', 'dropout_prob': 0.3220463831834228, 'hidden_dim': 50}
+
+Trial 8 => val_loss=0.7990, params={'model_lr': 8.316666372770422e-05, 'batch_size': 8, 'activation_fn': 'leaky_relu', 'dropout_prob': 0.24850861568067512, 'hidden_dim': 50}
+
+Trial 9 => val_loss=0.7923, params={'model_lr': 3.060746826320653e-05, 'batch_size': 8, 'activation_fn': 'tanh', 'dropout_prob': 0.49128873559965136, 'hidden_dim': 50}

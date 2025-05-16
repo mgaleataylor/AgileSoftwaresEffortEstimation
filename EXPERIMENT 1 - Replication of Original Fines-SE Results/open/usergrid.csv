@@ -1,0 +1,101 @@
+,Summary,Custom field (Story Points),Assignee_count,Reporter_count,Creator_count
+0,Issue with getting started steps on github,3.0,0.0,0.05263157894736842,0.05263157894736842
+1,Fix EventsResourceIT.testEventPostandGet,3.0,0.0,0.5263157894736842,0.5263157894736842
+2,Remove old dictionary calls with Hector and migrate to the map module,1.0,1.0,0.631578947368421,0.631578947368421
+3,Migrate counters from Hector to Datastax Java Driver,3.0,1.0,0.631578947368421,0.631578947368421
+4,Limit not honored on subsequent requests with cursors,3.0,0.0,0.631578947368421,0.631578947368421
+5,Error and possible race condition in the assets/uuid/data endpoints. ,3.0,0.3333333333333333,0.5263157894736842,0.5263157894736842
+6,Fix the GET /management/users/<userid> endpoint permissions,3.0,0.0,0.47368421052631576,0.47368421052631576
+7,Cannot get events after they have been posted,3.0,0.0,0.0,0.0
+8,Set a property to turn off usergrid's dependency on elasticsearch,5.0,1.0,0.47368421052631576,0.47368421052631576
+9,Remove Fields and Map to Entity Conversions from Core,8.0,1.0,0.15789473684210525,0.15789473684210525
+10,Upgrade pushy library to use latest version (HTTP/2 APNS implementation) ,2.0,1.0,0.05263157894736842,0.05263157894736842
+11,"'order by created desc' causing no results in location query (affects 1.0, not sure about 2.0)",3.0,0.0,0.15789473684210525,0.15789473684210525
+12,Allow usergrid.api.url.base to be set when creating organizations.,2.0,0.4444444444444444,0.47368421052631576,0.47368421052631576
+13,Support APNS VoIP Push Notifications,2.0,1.0,0.05263157894736842,0.05263157894736842
+14,Queries without 'ql' return a Null Pointer instead of a meaningful message,3.0,0.0,0.9473684210526315,0.9473684210526315
+15,New Apps not in dropdown until you click on Org Administration Page,3.0,0.0,0.9473684210526315,0.9473684210526315
+16,Allow the ability to view more that 10 applications in the applications dropdown and on the organization administration view,2.0,0.0,0.05263157894736842,0.05263157894736842
+17,Portal does not show progress indicator for registration,3.0,0.0,0.9473684210526315,0.9473684210526315
+18,remove index and deindex requests that do not go through sqs e.g. CandidateIdFilter,3.0,1.0,0.15789473684210525,0.15789473684210525
+19,Expose refresh token at the REST tier,3.0,0.0,1.0,1.0
+20,Bad geo query returns entire collection,3.0,0.0,1.0,1.0
+21,Test and design for ElasticSearch running on Tomcat nodes,5.0,0.0,0.9473684210526315,0.9473684210526315
+22,Call to /indexes produces a 500 error if used with connections,3.0,0.0,1.0,1.0
+23,ActivityStreams should be indexed,3.0,0.0,1.0,1.0
+24,Collection counters on App endpoint are completely off,3.0,0.0,1.0,1.0
+25,[SPIKE] Cross-collection / graph filtering does not work,5.0,0.0,0.9473684210526315,0.9473684210526315
+26,If the 'name' of an entity contains a colon it cannot be retrieved by name,3.0,0.0,0.9473684210526315,0.9473684210526315
+27,Fix MatrixQueryTests,3.0,0.0,0.47368421052631576,0.47368421052631576
+28,Create an area where all notifications for a session are viewable,3.0,0.0,0.05263157894736842,0.05263157894736842
+29,Limit the number of threads/resources an index rebuild can consume,3.0,0.0,0.9473684210526315,0.9473684210526315
+30,Cannot change custom entity name,3.0,0.1111111111111111,0.0,0.0
+31,Issues with paging in the query system need to be addressed by meaningful changes,8.0,0.1111111111111111,0.631578947368421,0.631578947368421
+32,Fix ApplicationResourceIT,5.0,0.4444444444444444,0.47368421052631576,0.47368421052631576
+33,Fix EntityMapSerialization in EntityToMapConverter to remove type serialization,3.0,1.0,0.15789473684210525,0.15789473684210525
+34,Numerous Null Pointer Exceptions on bulk deletes,3.0,0.0,0.9473684210526315,0.9473684210526315
+35,Rewrite Registration tests to fully cover the registration flow.,3.0,0.0,0.47368421052631576,0.47368421052631576
+36,NPE Under Load,3.0,0.0,0.9473684210526315,0.9473684210526315
+37,Hystrix/Cassandra exception falsely reported,3.0,0.0,0.9473684210526315,0.9473684210526315
+38,Generated docs should include Client SDK docs,3.0,0.0,0.5263157894736842,0.5263157894736842
+39,Queries using order by on float fields result in incorrect ordering ,3.0,0.0,0.5263157894736842,0.5263157894736842
+40,Queries using greater/less than on float fields fail,3.0,0.0,0.5263157894736842,0.5263157894736842
+41,Implement test for resume import,3.0,0.0,1.0,1.0
+42,Get import to work on a distributed system,3.0,0.0,1.0,1.0
+43,Build Application and Collection Delete Async Distributed Workflow,3.0,1.0,1.0,1.0
+44,"Can't delete entities in collection using singularized noun (affects 1.0, untested on 2.X)",3.0,0.0,0.15789473684210525,0.15789473684210525
+45,Possible bug in usergrid-lib.min.js TypeError: c in null,3.0,0.0,0.0,0.0
+46,unable to run usergrid while off line from internet,3.0,0.0,0.0,0.0
+47,Org (and presumably App) credentials can't create connections by default,3.0,0.0,0.15789473684210525,0.15789473684210525
+48,API returns 500 for missing Http Methods,3.0,0.0,0.15789473684210525,0.15789473684210525
+49,[SPIKE] Prototype a few distributed realtime parallel processing systems,8.0,0.0,0.631578947368421,0.631578947368421
+50,Test Remove routing by Entity Id in ES,3.0,0.0,0.631578947368421,0.631578947368421
+51,Bad characters in query causes 500 response; expecting 400?,3.0,0.0,0.15789473684210525,0.15789473684210525
+52,Rest Test Framework isn't correctly setting up the test account,3.0,0.0,0.47368421052631576,0.47368421052631576
+53,Soak Testing Scripts,3.0,0.1111111111111111,0.9473684210526315,0.9473684210526315
+54,Implement script for configuring Grafana dashboards based on new JMX counters,3.0,0.2222222222222222,0.9473684210526315,0.9473684210526315
+55,Refactor the Query portions of RelationManager into a command pattern,8.0,0.0,0.631578947368421,0.631578947368421
+56,Updating default accesstoken ttl for an app gives 404,3.0,0.0,0.0,0.0
+57,Default collections are not created by database setup,3.0,0.0,0.5263157894736842,0.5263157894736842
+58,Java documentations are misleading the user(developer).,3.0,0.0,0.05263157894736842,0.05263157894736842
+59,Usergrid ignores the IF HTTP headers,3.0,0.0,0.05263157894736842,0.05263157894736842
+60,Lack of Documentation on available features and REST APIs,3.0,0.0,0.05263157894736842,0.05263157894736842
+61,Cannot delete data with a non admin role,3.0,0.0,0.05263157894736842,0.05263157894736842
+62,Encodings in values are not being returned from query engine.,3.0,0.4444444444444444,0.47368421052631576,0.47368421052631576
+63,Cannot query and return entities that end in a space.,3.0,0.2222222222222222,0.47368421052631576,0.47368421052631576
+64,Implement write interfaces,5.0,0.0,0.631578947368421,0.631578947368421
+65,Implement read interfaces,5.0,0.0,0.631578947368421,0.631578947368421
+66,Create interfaces for results processing and write intial tests,3.0,0.0,0.631578947368421,0.631578947368421
+67,Create interface layout of new graph traversal read framework and write initial tests,3.0,0.0,0.631578947368421,0.631578947368421
+68,Modify graph edges to use buckets per shard,5.0,0.0,0.631578947368421,0.631578947368421
+69,Make number of shards for map configurable,1.0,0.0,0.631578947368421,0.631578947368421
+70,Prototype using Spark to perform functions on data in Cassandra,3.0,0.0,0.9473684210526315,0.9473684210526315
+71,Delete call with a limit of X returns >X resluts,3.0,0.3333333333333333,0.9473684210526315,0.9473684210526315
+72,HTTP POST of Entity fails under heavy load,3.0,0.0,0.5263157894736842,0.5263157894736842
+73,Invalidate token after it has been used to activate a new user account,3.0,0.0,1.0,1.0
+74,Asset data does not correctly obey contextual ownership like the entity,3.0,0.0,1.0,1.0
+75,Portal looks for helpJson.json in the wrong place,3.0,0.0,0.5263157894736842,0.5263157894736842
+76,Cannot build Android SDK,3.0,0.0,0.0,0.0
+77,Can't post on connection,3.0,0.0,1.0,1.0
+78,Exception being masked in ClientCredentialsSecurityFilter,3.0,0.0,0.9473684210526315,0.9473684210526315
+79,ACL not working as expected?,3.0,0.0,0.0,0.0
+80,Launcher url points to Apigee,3.0,0.0,0.05263157894736842,0.05263157894736842
+81,"Usergrid Launcher throws exception if ""initialize database"" unchecked",3.0,0.0,0.5263157894736842,0.5263157894736842
+82,Some required fields should not be required on the users page of the Admin Portal,3.0,0.0,1.0,1.0
+83,Mismatch application metadata ( APPLICATIONS_CF and Management Apps ),3.0,0.1111111111111111,0.0,0.0
+84,Fresh Admin user token won't work on /management/users/me,3.0,0.0,1.0,1.0
+85,Improve Exception when Query String cannot be parsed,3.0,0.0,0.9473684210526315,0.9473684210526315
+86,Admin Portal - connections listing on data page throws error,3.0,0.0,1.0,1.0
+87,"Admin Portal - ${user} permissions not allowed, but they should be",3.0,0.0,1.0,1.0
+88,Image assets not displaying correctly in Safari,5.0,0.0,1.0,1.0
+89,Broken link to contribution page,3.0,0.0,0.0,0.0
+90,UG 1.0 bug for DB setup with separate locks keyspace,3.0,0.0,0.9473684210526315,0.9473684210526315
+91,Column Querying Issues,3.0,0.0,0.9473684210526315,0.9473684210526315
+92,"Convert Usergrid docs & Update for 2.0: REST end-points, Models and Reference",5.0,0.0,0.5263157894736842,0.5263157894736842
+93,Convert Usergrid docs & Update for 2.0: Usergrid SDKs,5.0,0.0,0.5263157894736842,0.5263157894736842
+94,select (filter) queries with dot notation don't return results,3.0,0.3333333333333333,1.0,1.0
+95,NPE running (resuming?) reindex with no payload in the request,3.0,0.0,0.9473684210526315,0.9473684210526315
+96,POST to /events returns entity that does not exist,3.0,0.0,1.0,1.0
+97,Refactor asset aws sdk class,2.0,0.4444444444444444,0.47368421052631576,0.47368421052631576
+98,Offer an option to delete all inbound and/or outbound connections on entity delete,3.0,0.0,1.0,1.0
+99,"/collection/id/connected/* paths should either return an entity, an empty set or a 404",3.0,0.0,1.0,1.0

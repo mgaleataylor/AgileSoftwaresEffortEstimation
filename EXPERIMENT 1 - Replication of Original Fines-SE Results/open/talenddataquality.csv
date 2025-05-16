@@ -1,0 +1,74 @@
+,Summary,Custom field (Story Points),Assignee_count,Reporter_count,Creator_count
+0,Git Merge: Studio should resolve by automatic(softwaresystem.softwaredeployment),8.0,0.0,0.05405405405405406,0.13793103448275862
+1,Add Mexican HASC state codes (i.e. 2-char codes),1.0,0.0,0.0,0.0
+2,"Feature Request: allow disabling Rules in Analysis, but keep them in the list",20.0,0.046511627906976744,0.0,0.0
+3,Add the ability to lookup for dependencies for a given object in the repository - Repository objects cross-references,13.0,0.4186046511627907,0.0,0.0
+4,Import Oracle synonyms in to Metadata,40.0,0.4186046511627907,0.0,0.0
+5,Include analysis description in reports,5.0,1.0,0.16216216216216217,0.2413793103448276
+6,Support MariaDB well in Studio and installer datamart,20.0,1.0,0.0,0.10344827586206896
+7,Ability to define the order of Analysis in a report,8.0,0.046511627906976744,0.0,0.0
+8,Hive profiling cannot finish on mapR3.0 embedded mode in Win 8,8.0,1.0,1.0,0.27586206896551724
+9,"In DQ repository, sort items by type (folders then analysis) in ascendant alphabetical order",8.0,0.4186046511627907,0.16216216216216217,0.2413793103448276
+10,Create a Distinct count indicator which computes the SQL distinct count,5.0,0.4186046511627907,0.2972972972972973,1.0
+11,Incorrect primary key information,5.0,0.4186046511627907,0.2972972972972973,1.0
+12,Enhance the connection pool  when executing the analysis,40.0,1.0,1.0,0.27586206896551724
+13,Help page content does not change according to the indicator selection,8.0,0.4186046511627907,0.16216216216216217,0.2413793103448276
+14,"Add a section ""Data Quality platform internal documentation""  in the ""Contents"" page",13.0,1.0,1.0,0.10344827586206896
+15,Create a configuration to automatically filter only DQ tasks,8.0,0.4186046511627907,0.2972972972972973,1.0
+16,Add the ability to edit context in the Profiler view,20.0,0.4186046511627907,0.2972972972972973,1.0
+17,List all contexts in the Detail view,13.0,0.4186046511627907,0.2972972972972973,1.0
+18,"add overwrite confirmation for save action with ""apply for all files"" checkbox",13.0,0.4186046511627907,0.16216216216216217,0.2413793103448276
+19,Add the display name of the items in the DQ datamart,20.0,1.0,1.0,1.0
+20,"Propagate Table Alias in Schema when ""guess schema"" is activated",13.0,0.4186046511627907,0.2972972972972973,1.0
+21,"Add an option in the ""Profiling"" preference page to not switch automatically between perspective",8.0,1.0,1.0,1.0
+22,"No related hadoop cluster information shows in the ""Export Items"" dialog.",13.0,0.06976744186046512,0.0,0.0
+23,Use smart sampling in the match analysis,13.0,0.4186046511627907,0.2972972972972973,1.0
+24,Missing field(s) in generated PDF report,5.0,1.0,1.0,0.0
+25,Reduce the number of connection creation when reloading table folder.,8.0,1.0,1.0,0.27586206896551724
+26,Create junits for BaseConnectionContextHelper,0.5,0.023255813953488372,1.0,1.0
+27,Eclipse help view for the Match rule wizard.,8.0,1.0,0.0,0.0
+28,"check tPersonator, ensure it includes all the columns which are provided by Melissa service",3.0,0.0,0.05405405405405406,0.0
+29,Discrepancy between defined KANJI range and Java8 standard library,0.5,0.0,0.16216216216216217,0.2413793103448276
+30,Improve the code to make sure same action will not do twice(do it first before any match analysis modify),3.0,0.0,0.05405405405405406,0.13793103448275862
+31,Create/Test an Excel rule on BRMS,5.0,0.0,0.0,0.034482758620689655
+32,Refactor the magic class DBConnectionFillerImpl ,13.0,1.0,0.05405405405405406,0.27586206896551724
+33,Create back thread to load data on the preview table of column analysis,5.0,0.4186046511627907,0.05405405405405406,0.13793103448275862
+34,refactor the properties save,13.0,1.0,1.0,0.10344827586206896
+35,The HTML XML EXCEL and RTF format are not satisfactory for the new look and feel.,8.0,1.0,1.0,0.27586206896551724
+36,Ensure the quality of the DQ datamart,8.0,1.0,1.0,1.0
+37,No cheat sheet open when I start TOS DQ,8.0,1.0,1.0,1.0
+38,Connection analysis : information_schema,5.0,1.0,1.0,0.0
+39,"when I edit a source file, the save status is not changed",13.0,1.0,1.0,0.10344827586206896
+40,Add a confirmation in the preference when we change the database,5.0,1.0,1.0,1.0
+41,Add assertion about the returned values in EcosystemServiceTest ,0.5,1.0,1.0,1.0
+42,Delete PatternTest and create some tests related to the jdbc urls if none exists,1.0,1.0,1.0,1.0
+43,Clean up AnalysisColumnTreeViewerTest (remove warnings),0.5,1.0,1.0,1.0
+44,implement methods in ReportSubFolderRepNodeTest,3.0,1.0,1.0,1.0
+45,implement empty methods in TableViewComparisonLevelTest,8.0,1.0,1.0,1.0
+46,Implement DbmsLanguageFactoryTest methods,8.0,0.06976744186046512,0.2972972972972973,1.0
+47,Replace ReportDocGeneratorTest by a meaningful test,5.0,1.0,1.0,1.0
+48,implement ColumnMasterDetailsPageTest,5.0,1.0,1.0,1.0
+49,No assertion in SplitSysIndicatorTaskTest. Fix it.,0.5,1.0,1.0,1.0
+50,Border of connection selection comb widget is too thick,5.0,1.0,1.0,0.27586206896551724
+51,"Disable the ""Run Report"" button after clicked and reset to enabled after the report generation is done.",5.0,0.4186046511627907,0.16216216216216217,0.2413793103448276
+52,Clean up WorkbenchUtilsTest (too many lines commented),0.5,1.0,1.0,1.0
+53,convert JasperTest into a real junit class,8.0,1.0,1.0,1.0
+54,Clean up DqRepositoryViewServiceTest,3.0,1.0,1.0,1.0
+55,Refactorying http://talendforge.org/trac/top/changeset/95805#file0,0.5,1.0,1.0,0.27586206896551724
+56,improve description fields in Detail view,5.0,0.4186046511627907,0.2972972972972973,1.0
+57,Open warning dialog to user when the SQL expression had been removed from indicator definition when runing the analysis,1.0,1.0,1.0,0.27586206896551724
+58,labels of Analysis subcategory are improperly handled,5.0,1.0,1.0,0.2413793103448276
+59,Checking datamart will get error on Dev environment console,8.0,1.0,1.0,0.034482758620689655
+60,remove the dialog when change the name of connection and change refresh mode.,8.0,1.0,1.0,0.13793103448275862
+61,Unreadable parameters in UDI,3.0,0.4186046511627907,0.2972972972972973,1.0
+62,add generate job menu in the result chart of column set analysis,5.0,0.4186046511627907,0.16216216216216217,0.2413793103448276
+63,Code refactoring 2: the save method of sql source file & jrxml tempate - Do it only on trunk (5.2),13.0,0.06976744186046512,1.0,0.27586206896551724
+64,for mssql all the catalogs get the same schemas when  doesn't set the database filter,13.0,1.0,0.0,0.06896551724137931
+65,TableSelectionDialog can not dependency DQRepositoryNode.,5.0,1.0,1.0,0.13793103448275862
+66,the result page should better change the catalog name to certain UDI name,1.0,1.0,1.0,0.06896551724137931
+67,so many warning show in error log when reload the connection setting,3.0,1.0,0.05405405405405406,0.0
+68,"for mdm analysis in java engine can not get the row count, null count  successfully for record which contains null value.",13.0,1.0,1.0,0.06896551724137931
+69,Allow scroll down and copy/paste of the error in tmatchgroup,1.0,1.0,1.0,0.0
+70,Remove two columns in frequency tables,8.0,1.0,1.0,1.0
+71,handle org.talend.dqdemos,3.0,1.0,0.2972972972972973,1.0
+72,Create a project to check the integrity of the DQ datamart,20.0,0.4186046511627907,0.2972972972972973,1.0
