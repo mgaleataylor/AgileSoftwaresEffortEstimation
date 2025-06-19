@@ -1,4 +1,0 @@
-
-Trial 0 => val_loss=0.7890, params={'latent_dim': 5, 'ae_lr': 0.0002793651221128956, 'model_lr': 0.0006153499383434269, 'ae_epochs': 50, 'batch_size': 8}
-
-Trial 1 => val_loss=0.7867, params={'latent_dim': 5, 'ae_lr': 5.458303089196539e-05, 'model_lr': 0.0006670280836031396, 'ae_epochs': 20, 'batch_size': 32}
